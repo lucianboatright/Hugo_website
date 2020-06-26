@@ -31,20 +31,28 @@
     border-bottom: 1px solid rgb(10, 3, 105);
 }
 
-.ul {
+ul {
     list-style: none;
+    height: 0px;
+    overflow: hidden;
 }
+
+.showNav{
+    height:160px;
+}
+
+
 /* test for buttons on nav bar */
 ul li a{
-    color: rgb(255, 174, 0);
+    color: rgb(218, 150, 4);
     background: rgb(2, 63, 2));
     display: block;
     padding: 10px;
     text-decoration: none;
     transition: all 1s ease;
+    font-size: 20px;
 
 }
-
 
 ul li a:hover{
     background: rgb(65, 161, 65);
@@ -55,13 +63,17 @@ ul li a:hover{
 
 /* nav bar when window is large */
 @media screen and (min-width: 640px){
+    .logo img{
+        width: 80px
+    }
     nav{
         background: white;
         color: rgb(65, 161, 65);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
+        padding: 0px;
+        border-bottom: 1px solid rgb(10, 3, 105)
 
     }
 
@@ -70,13 +82,19 @@ ul li a:hover{
     }
 
     ul{
-        display: flex;
+        list-style: none;
+        height: auto;
         /* background: transparent;
         padding-right: 20px; */
     }
 
+    .showNav{
+        height: auto;
+    }
+
     nav ul a{
         background: transparent;
+        padding-left: 40px;
     }
     .logoBtn{
         border: none;
