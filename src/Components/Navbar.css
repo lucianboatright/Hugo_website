@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* logo */
+.logo img{
+    width: 80px
+}
+/* navbar items  */
+.bar{
+    width: 30px;
+    margin: 5px;
+    height: 5px;
+    color: rgb(94, 51, 51);
+    background: rgb(10, 3, 105);
+    cursor: pointer;
+}
+/* menue button */
+.btn {
+    border: 1px solid rgb(10, 3, 105);
+    display: inline-block;
+
+}
+/* menue button */
+.logoBtn {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(10, 3, 105);
+}
+
+.ul {
+    list-style: none;
+}
+/* test for buttons on nav bar */
+ul li a{
+    color: rgb(255, 174, 0);
+    background: rgb(2, 63, 2));
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 1s ease;
+
+}
+
+
+ul li a:hover{
+    background: rgb(65, 161, 65);
+    color: yellow;
+}
+
+/* resposize mount */
+
+/* nav bar when window is large */
+@media screen and (min-width: 640px){
+    nav{
+        background: white;
+        color: rgb(65, 161, 65);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+
+    }
+
+    .btn{
+        display: none;
+    }
+
+    ul{
+        display: flex;
+        /* background: transparent;
+        padding-right: 20px; */
+    }
+
+    nav ul a{
+        background: transparent;
+    }
+    .logoBtn{
+        border: none;
+    }
+}

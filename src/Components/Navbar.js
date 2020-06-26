@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import logo from './img/HB_logo.png'
+import "./Navbar.css"
 
 
 class Navbar extends Component {
@@ -7,8 +8,9 @@ class Navbar extends Component {
         return (
             <nav>
             <div className="logoBtn">
-              <a herf="#"><img src={logo} alt=""/>
-              </a>
+                <div className="logo">
+                    <a herf="#"><img src={logo} alt=""/></a>
+                </div>
               <div className="btn">
                 <div className="bar"></div>
                 <div className="bar"></div>
