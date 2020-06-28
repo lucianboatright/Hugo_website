@@ -15,11 +15,13 @@
     color: rgb(94, 51, 51);
     background: rgb(10, 3, 105);
     cursor: pointer;
+    border-radius: 5px;
 }
 /* menue button */
 .btn {
     border: 1px solid rgb(10, 3, 105);
     display: inline-block;
+    border-radius: 5px;
 
 }
 /* menue button */
@@ -32,31 +34,35 @@
 }
 
 ul {
+    background: rgb(182, 250, 218);
     list-style: none;
     height: 0px;
     overflow: hidden;
+    transition: all 1s ease
 }
 
 .showNav{
-    height:160px;
+    height:176px;
 }
 
 
 /* test for buttons on nav bar */
 ul li a{
     color: rgb(218, 150, 4);
-    background: rgb(2, 63, 2));
+    background: white;
     display: block;
     padding: 10px;
     text-decoration: none;
     transition: all 1s ease;
     font-size: 20px;
+    border-bottom: 1px solid rgb(10, 3, 105);
 
 }
 
 ul li a:hover{
-    background: rgb(65, 161, 65);
-    color: yellow;
+    background: rgb(182, 250, 218);
+    color: rgb(196, 134, 0);
+    padding-left: 18px;
 }
 
 /* resposize mount */
@@ -82,6 +88,8 @@ ul li a:hover{
     }
 
     ul{
+        background: white;
+        display: flex;
         list-style: none;
         height: auto;
         /* background: transparent;
@@ -92,9 +100,17 @@ ul li a:hover{
         height: auto;
     }
 
+    ul li a:hover{
+        background: rgb(182, 250, 218);
+        color: rgb(196, 134, 0);
+
+    }
+
     nav ul a{
+        border-radius: 5px;
         background: transparent;
         padding-left: 40px;
+        border-bottom: none;
     }
     .logoBtn{
         border: none;
