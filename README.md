@@ -18,6 +18,7 @@ To be added as and when they start comming.
 holdeing page with some pictures of gardens???
 
 #### Home
+Welcome
 Contains pictures
 brief contact info 
 short discription 

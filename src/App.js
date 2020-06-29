@@ -8,7 +8,7 @@ import Navbar from "./Components/Navbar"
 import Home from './Components/Home'
 import About from './Components/About'
 import Contact from './Components/Contact'
-import Pictures from './Components/Pictures';
+// import Pictures from './Components/Pictures';
 
 
 
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/Home" component={Home} />
           <Route exact path="/About" component={About} />
           <Route exact path="/Contact" component={Contact} />
-          <Route exact path="/Picture" component={Pictures} />
+          {/* <Route exact path="/Picture" component={Pictures} /> */}
         </Switch>
       </div>
     </Router>
