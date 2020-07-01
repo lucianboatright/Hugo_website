@@ -7,7 +7,7 @@ class About extends Component {
         return(
             <>
             <h1>Hello this is the About compnent</h1>
-            <h2>WELLL LETTS TRY</h2>
+            <h2>Hugo </h2>
             </>
         )
     }
