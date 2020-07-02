@@ -1,10 +1,15 @@
 *{
     margin: 0px;
-    padding: 0px;
+    /* padding: 0px; */
 
 }
 .logo img{
-    width: 200%
+    width: 200%;
+}
+
+.contactinfo {
+    position: relative;
+    /* margin-left: 200px; */
 }
 
 .emailcontact img{
@@ -37,7 +42,7 @@
     width: 30px;
     margin: 5px;
     height: 5px;
-    color: rgb(94, 51, 51);
+    color: rgb(223, 116, 87);
     background: rgb(10, 3, 105);
     cursor: pointer;
     border-radius: 5px;
@@ -51,7 +56,7 @@
 }
 /* menue button */
 .logoBtn {
-    background: white;
+    background: rgb(243, 248, 233);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +64,7 @@
 }
 
 ul {
-    background: rgb(182, 250, 218);
+    background: rgb(243, 248, 233);
     list-style: none;
     height: 0px;
     overflow: hidden;
@@ -67,14 +72,15 @@ ul {
 }
 
 .showNav{
-    height:132px;  /* (176: 4 tabs) */
+    height:132px;  
+    /* old value (176: 4 tabs) */
 }
 
 
 /* test for buttons on nav bar */
 ul li a{
-    color: rgb(218, 150, 4);
-    background: white;
+    color: rgb(223, 116, 87);
+    background: rgb(243, 248, 233);
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -85,8 +91,8 @@ ul li a{
 }
 
 ul li a:hover{
-    background: rgb(182, 250, 218);
-    color: rgb(196, 134, 0);
+    background: rgb(77, 136, 128);
+    color: rgb(223, 116, 87);
     padding-left: 18px;
 }
 
@@ -98,7 +104,7 @@ ul li a:hover{
         width: 80px
     }
     nav{
-        background: white;
+        background: rgb(243, 248, 233);
         color: rgb(65, 161, 65);
         display: flex;
         justify-content: space-between;
@@ -113,7 +119,7 @@ ul li a:hover{
     }
 
     ul{
-        background: white;
+        background: rgb(243, 248, 233)te;
         display: flex;
         list-style: none;
         height: auto;
@@ -126,8 +132,8 @@ ul li a:hover{
     }
 
     ul li a:hover{
-        background: rgb(182, 250, 218);
-        color: rgb(196, 134, 0);
+        background: rgb(77, 136, 128);
+        color: rgb(223, 116, 87);
 
     }
 

@@ -1,0 +1,28 @@
+/* body */
+.about_body {
+    text-align: center;
+}
+
+
+
+
+
+
+/* images */
+.gardenLogos img {
+    position: relative;
+    padding: 6px;
+    float: left;
+    /* width: 18%; */
+    align-items: center;
+}
+
+.RHS_logo img {
+    width: 150px;
+
+
+}
+
+.hort_logo img {
+    width: 220px;
+}
