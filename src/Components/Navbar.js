@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import logo from './img/HugoLogo.png'
 import emailLogo from './img/Email_logo.png'
 import phoneLogo from './img/Phone_logo.png'
-import "./Navbar.css"
+import "./Styling/Navbar.css"
 
 import {Link} from 'react-router-dom'
 

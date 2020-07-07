@@ -1,0 +1,46 @@
+.Contact_body {
+    text-align: center;
+}
+
+.contactinfo {
+    position: relative;
+    /* margin-left: 200px; */
+}
+
+.emailcontact img{
+    width: 20px;
+    margin-bottom: 10px;
+}
+.contactName {
+    margin-left: 10px;
+}
+.emailcontact  img:hover{
+    width: 20px;
+    transition: 1s ease;
+    padding-left: 10px
+}
+
+
+.phonecontact img{
+    width: 20px;
+}
+.contactPhone {
+    margin-left: 10px;
+}
+.phonecontact  img:hover{
+    width: 20px;
+    transition: 1s ease;
+    padding-left: 10px
+}
+
+.whatsappontact img{
+    width: 80px;
+}
+.whatsappontact {
+    margin-left: 10px;
+}
+.whatsappontact  img:hover{
+    width: 20px;
+    transition: 1s ease;
+    padding-left: 10px
+}
