@@ -1,28 +1,60 @@
 /* body */
+
+
+
 .about_body {
     text-align: center;
 }
 
+.RHS_box {
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(65, 161, 65);
+}
 
+/* .hort_box {
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(65, 161, 65);
+} */
 
+.RHS_logo {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 200px;
+    height: 100px;
+    /* width: 150px; */
+    /* border: 1px solid red */
+}
+.hort_logo {
+    position: absolute;
+    top: 70px;
+    right: 210px;
+    width: 200px;
+    height: 100px;
+    /* width: 220px; */
+    /* border: 1px solid red */
+    
+}
 
-
+.holo_block {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    height: 200px;
+}
 
 /* images */
-.gardenLogos img {
-    position: relative;
-    padding: 6px;
-    float: left;
-    /* width: 18%; */
+.gardenLogos {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
-.RHS_logo img {
-    width: 150px;
-
-
-}
-
-.hort_logo img {
-    width: 220px;
-}
