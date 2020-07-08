@@ -4,7 +4,7 @@
 
 }
 .logo img{
-    width: 200%;
+    width: 80px;
 }
 
 .contactinfo {
@@ -101,7 +101,7 @@ ul li a:hover{
 /* nav bar when window is large */
 @media screen and (min-width: 640px){
     .logo img{
-        width: 80px
+        width: 150px
     }
     nav{
         background: rgb(243, 248, 233);
@@ -109,7 +109,7 @@ ul li a:hover{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px;
+        padding: 0px;
         border-bottom: 1px solid rgb(10, 3, 105)
 
     }

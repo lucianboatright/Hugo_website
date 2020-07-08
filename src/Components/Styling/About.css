@@ -58,3 +58,7 @@
     padding: 10px;
 }
 
+ul.services {
+    list-style-type: circle;
+
+}
