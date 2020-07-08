@@ -26,9 +26,9 @@ class Contact extends Component {
                         <div className="phonecontact">
                             <ul><Link to="/Contact"><img src={phoneLogo} alt=""/></Link><div className="contactPhone">077895785400 - (Please leave a message)</div></ul>
                         </div>
-                        <div className="whatsappontact">
+                        {/* <div className="whatsappontact">
                             <ul><Link to="/Contact"><img src={whatsAppLogo} alt=""/></Link><div className="whatsappontact">077895785400</div></ul>
-                        </div>
+                        </div> */}
                     </div>
             </div>
             </>
