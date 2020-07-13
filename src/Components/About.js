@@ -17,7 +17,7 @@ class About extends Component {
                     <br></br>
                     <h1>Bristol based lans scape gardener</h1>
                     <br></br>
-                    <h3>Small team of expereinced self sufficiant gardeners</h3>
+                    <h3>Small team of expereinced and self sufficiant gardeners</h3>
                     <br></br>
                     <h3>Based in Bristol however please feel free to contact as we are open to traveling.</h3>
                     <h3>Feel free to message me and we can discuss the options</h3>
@@ -43,7 +43,7 @@ class About extends Component {
                         <div></div>
                     </div>
                     
-                    <div className="RHS_box" id="hort"><h3>HB Gardens and Landscapes are also registered members of the Chartered Insititute of Horticulture since 2018</h3>
+                    <div className="RHS_box" id="hort"><h3>HB Gardens and Landscapes is also registered Chartered Insititute of Horticulture since 2018</h3>
                         <div className="hort_logo">
                             <Link to="https://www.rhs.org.uk/advice/profile?pid=403"><img src={InstHauto} alt="" /></Link>
                         </div>
