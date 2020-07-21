@@ -23,7 +23,7 @@ class Navbar extends Component {
 
     render(){
         return (
-            <nav className="navbar">
+            <nav className={navbar.navbar}>
                 <div className={navbar.logoBtn}>
 
                     <div className={navbar.logo}>

@@ -5,7 +5,7 @@ import emailLogo from './img/Email_logo.png'
 import phoneLogo from './img/Phone_logo.png'
 import whatsAppLogo from './img/whatsapp.jpg'
 
-import './Styling/Contact.css'
+import service from './Styling/Services.module.css'
 
 class Services extends Component {
 
@@ -13,11 +13,11 @@ class Services extends Component {
 
         return(
             <>
-            <div className="Contact_body">
+            <div className={service.Contact_body}>
                 <br></br>
                 <h1>Services</h1>
-                <div className="services">
-                        <ul className="services">
+                <div className={service.services}>
+                        <ul className={service.services}>
                             <li>Both Hard and Soft gardening</li>
                             <li>Lanscaping</li>
                             <li>Patios</li>
