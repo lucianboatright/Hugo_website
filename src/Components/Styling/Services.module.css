@@ -16,10 +16,19 @@
     padding-left: 18px;
 } */
 
-.services ul {
+/* .services ul {
     background: rgb(243, 248, 233);
     list-style: none;
     height: 0px;
     overflow: hidden;
     transition: all 1s ease
+} */
+
+.services ul{
+    background: rgb(243, 248, 233)te;
+    display: flex;
+    list-style: none;
+    height: auto;
+    /* background: transparent;
+    padding-right: 20px; */
 }
