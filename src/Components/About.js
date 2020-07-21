@@ -22,15 +22,6 @@ class About extends Component {
                     <h3>Based in Bristol however please feel free to contact as we are open to traveling.</h3>
                     <h3>Feel free to message me and we can discuss the options</h3>
                     <br></br>
-                    <div className="services">
-                        <ul className="services">
-                            <li>Both Hard and Soft gardening</li>
-                            <li>Lanscaping</li>
-                            <li>Patios</li>
-                            <li>Gardening</li>
-                            <li>Design Installation and Maintinance</li>
-                        </ul>
-                    </div>
                 </div>
                 
                 <div className="gardenLogos">

@@ -16,6 +16,16 @@ class Services extends Component {
             <div className="Contact_body">
                 <br></br>
                 <h1>Services</h1>
+                <div className="services">
+                        <ul className="services">
+                            <li>Both Hard and Soft gardening</li>
+                            <li>Lanscaping</li>
+                            <li>Patios</li>
+                            <li>Gardening</li>
+                            <li>Design Installation and Maintinance</li>
+                        </ul>
+                    </div>
+
      
             </div>
             </>
