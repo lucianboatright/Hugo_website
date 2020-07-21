@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
 
-import './Styling/About.css'
+import './Styling/About.module.css'
 
 import RHSlogo from './img/rhs-qualified.svg'
 import InstHauto from './img/chart_logo.png'

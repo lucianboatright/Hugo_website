@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import logo from './img/HugoLogo.png'
 import emailLogo from './img/Email_logo.png'
 import phoneLogo from './img/Phone_logo.png'
-import "./Styling/Navbar.css"
+import "./Styling/Navbar.module.css"
 
 import {Link} from 'react-router-dom'
 
@@ -17,6 +17,7 @@ class Navbar extends Component {
             isOpen: !this.state.isOpen,
         })
     }
+    
 
 
 
@@ -49,6 +50,7 @@ class Navbar extends Component {
                         <li><Link to="/Home">Home</Link></li>
                         <li><Link to="/About">About</Link></li>
                         <li><Link to="/Contact">Contact</Link></li>
+                        <li><Link to="/Services">Services</Link></li>
                         {/* <li><Link to="/Pictures">Pictures</Link></li> */}
                     </ul>
                 </div>
