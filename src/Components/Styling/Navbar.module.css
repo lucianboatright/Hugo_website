@@ -3,9 +3,7 @@
     /* padding: 0px; */
 
 }
-.logo img{
-    width: 80px;
-}
+
 
 .contactinfo {
     position: relative;
@@ -63,7 +61,7 @@
     border-bottom: 1px solid rgb(10, 3, 105);
 }
 
-ul {
+ul.showNav {
     background: rgb(243, 248, 233);
     list-style: none;
     height: 0px;
@@ -99,7 +97,7 @@ ul li a:hover{
 /* logo box */
 
 /* nav bar when window is large */
-@media screen and (min-width: 640px){
+@media screen and (min-width: 700px){
     .logo img{
         width: 150px
     }
@@ -118,7 +116,7 @@ ul li a:hover{
         display: none;
     }
 
-    ul{
+    ul.showNav {
         background: rgb(243, 248, 233)te;
         display: flex;
         list-style: none;

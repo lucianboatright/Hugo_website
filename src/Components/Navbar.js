@@ -27,7 +27,7 @@ class Navbar extends Component {
                 <div className={navbar.logoBtn}>
 
                     <div className={navbar.logo}>
-                        <img src={logo} alt=""/>
+                        <div><Link to="/Home"><img src={logo} alt=""></img></Link></div>
                     </div>
                     <div className={navbar.contactinfo}>
                         <div className={navbar.emailcontact}>
@@ -45,7 +45,7 @@ class Navbar extends Component {
                         <div className={navbar.bar}></div>
                     </div>
                 </div>
-                <div className={navbar.page_link}>
+                <div className={navbar.page_link} data-foo="BARR">
                     <ul className={this.state.isOpen ? "${navbar.showNav}" : "${navbar.undefined}" }>
                         <li><Link to="/Home">Home</Link></li>
                         <li><Link to="/About">About</Link></li>

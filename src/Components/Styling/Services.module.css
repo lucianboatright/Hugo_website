@@ -27,7 +27,7 @@
 .services ul{
     background: rgb(243, 248, 233)te;
     display: flex;
-    list-style: none;
+    /* list-style: none; */
     height: auto;
     /* background: transparent;
     padding-right: 20px; */
