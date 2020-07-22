@@ -10,7 +10,7 @@ class Home extends Component {
 
         return(
             <div className={home}>
-                <h1>Hello this is the Home compnent</h1>
+                <h1>Hello this is the Home page compnent</h1>
                 <div className={home.logo}>
                     <img src={logo} alt=""/>
 

@@ -17,7 +17,7 @@ class Contact extends Component {
                 <br></br>
                 <h1>Contact Details</h1>
                 <br></br>
-                <h2>Please Contact HB Gardening using the details below of fill out he box below</h2>
+                <h2>Please Contact HB Gardening using the details below of fill out he box below and send</h2>
                 <h2>second line</h2>
                 <div className="contactinfo">
                         <div className="emailcontact">
