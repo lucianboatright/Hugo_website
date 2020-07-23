@@ -19,8 +19,8 @@ class Services extends Component {
                 <div className={service.services}>
                         <ul className={service.services}>
                             <li>Both Hard and Soft gardening skills </li>
-                            <li>Lanscaping</li>
-                            <li>Patios</li>
+                            <li>Landscapeing</li>
+                            <li>Paties</li>
                             <li>Gardening</li>
                             <li>Design Installation and Maintinance</li>
                         </ul>
