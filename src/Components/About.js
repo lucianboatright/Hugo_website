@@ -20,7 +20,7 @@ class About extends Component {
                     <h3>Small team of expereinced and self sufficiant gardeners</h3>
                     <br></br>
                     <h3>Based in Bristol however please feel free to contact as we are open to traveling.</h3>
-                    <h3>Feel free to message me and we can discuss the options</h3>
+                    <h3>Feel free to message me and we can discuss the ideas</h3>
                     <br></br>
                 </div>
                 
