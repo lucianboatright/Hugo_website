@@ -1,8 +1,14 @@
 *{
     margin: 0px;
     /* padding: 0px; */
-
 }
+
+.contactLink {
+    display: flex;
+    align-items: center;
+}
+
+
 .logo img{
     width: 80px;
 }
@@ -63,7 +69,7 @@
     border-bottom: 1px solid rgb(10, 3, 105);
 }
 
-ul {
+ul.nav {
     background: rgb(243, 248, 233);
     list-style: none;
     height: 0px;
@@ -78,7 +84,7 @@ ul {
 
 
 /* test for buttons on nav bar */
-ul li a{
+ul.nav li a{
     color: rgb(223, 116, 87);
     background: rgb(243, 248, 233);
     display: block;
@@ -90,7 +96,7 @@ ul li a{
 
 }
 
-ul li a:hover{
+ul.nav li a:hover{
     background: rgb(77, 136, 128);
     color: rgb(223, 116, 87);
     padding-left: 18px;
@@ -103,7 +109,7 @@ ul li a:hover{
     .logo img{
         width: 150px
     }
-    nav{
+    nav.navbar{
         background: rgb(243, 248, 233);
         color: rgb(223, 116, 87);
         display: flex;
@@ -118,26 +124,26 @@ ul li a:hover{
         display: none;
     }
 
-    ul{
-        background: rgb(243, 248, 233)te;
+    ul.nav{
+        background: rgb(243, 248, 233);
         display: flex;
         list-style: none;
         height: auto;
-        /* background: transparent;
-        padding-right: 20px; */
+        background: transparent;
+        padding-right: 20px;
     }
 
     .showNav{
         height: auto;
     }
 
-    ul li a:hover{
+    ul.nav li a:hover{
         background: rgb(77, 136, 128);
         color: rgb(223, 116, 87);
 
     }
 
-    nav ul a{
+    nav.navbar ul.nav a{
         border-radius: 5px;
         background: transparent;
         padding-left: 40px;
