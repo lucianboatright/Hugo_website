@@ -28,7 +28,7 @@ class Navbar extends Component {
                 <div className={navbar.logoBtn}>
 
                     <div className={navbar.logo}>
-                        <div><Link to="/Home"><img src={logo} alt=""></img></Link></div>
+                        <Link to="/Home"><img src={logo} alt=""></img></Link>
                     </div>
                     <div className={navbar.contactinfo}>
                         <div className={navbar.phonecontact}>
