@@ -7,7 +7,7 @@ class Pictures extends Component {
 
         return(
             <>
-            <h1>Hello this is the Pictures compnent</h1>
+            <h1>Empty component waiting for content</h1>
             <img src={logo} alt=""/>
             </>
         )

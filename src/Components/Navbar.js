@@ -28,7 +28,7 @@ class Navbar extends Component {
                 <div className={navbar.logoBtn}>
 
                     <div className={navbar.logo}>
-                        <img src={logo} alt=""/>
+                        <div><Link to="/Home"><img src={logo} alt=""></img></Link></div>
                     </div>
                     <div className={navbar.contactinfo}>
                         <div className={navbar.phonecontact}>
@@ -46,8 +46,10 @@ class Navbar extends Component {
                         <div className={navbar.bar}></div>
                     </div>
                 </div>
+
                 <div className={navbar.page_link}>
                     <ul className={navbar.nav}>
+
                         <li><Link to="/Home">Home</Link></li>
                         <li><Link to="/About">About</Link></li>
                         <li><Link to="/Contact">Contact</Link></li>

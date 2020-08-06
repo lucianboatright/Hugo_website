@@ -9,9 +9,11 @@
 }
 
 
+
 .logo img{
     width: 80px;
 }
+
 
 .contactinfo {
     position: relative;
@@ -69,7 +71,9 @@
     border-bottom: 1px solid rgb(10, 3, 105);
 }
 
+
 ul.nav {
+
     background: rgb(243, 248, 233);
     list-style: none;
     height: 0px;
@@ -105,7 +109,7 @@ ul.nav li a:hover{
 /* logo box */
 
 /* nav bar when window is large */
-@media screen and (min-width: 640px){
+@media screen and (min-width: 700px){
     .logo img{
         width: 150px
     }
@@ -123,6 +127,7 @@ ul.nav li a:hover{
     .btn{
         display: none;
     }
+
 
     ul.nav{
         background: rgb(243, 248, 233);
