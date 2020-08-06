@@ -4,6 +4,7 @@ import emailLogo from './img/Email_logo.png'
 import phoneLogo from './img/Phone_logo.png'
 import navbar from "./Styling/Navbar.module.css"
 
+
 import {Link} from 'react-router-dom'
 
 class Navbar extends Component {
@@ -30,11 +31,11 @@ class Navbar extends Component {
                         <div><Link to="/Home"><img src={logo} alt=""></img></Link></div>
                     </div>
                     <div className={navbar.contactinfo}>
-                        <div className={navbar.emailcontact}>
-                            <ul><Link to="/Contact"><img src={emailLogo} alt=""/></Link><div className="contactName">Hugo.Boatright@gmail.com</div></ul>
+                        <div className={navbar.phonecontact}>
+                            <Link className={navbar.contactLink} to="/Contact"><img src={emailLogo} alt=""/><div className="contactName">Hugo.Boatright@gmail.com</div></Link>
                         </div>
                         <div className={navbar.phonecontact}>
-                            <ul><Link to="/Contact"><img src={phoneLogo} alt=""/></Link><div className="contactPhone">077895785400 - (Please leave a message)</div></ul>
+                            <Link className={navbar.contactLink} to="/Contact"><img src={phoneLogo} alt=""/><div className="contactPhone">077895785400 - (Please leave a message)</div></Link>
                         </div>
                     </div>
 
@@ -45,8 +46,10 @@ class Navbar extends Component {
                         <div className={navbar.bar}></div>
                     </div>
                 </div>
-                <div className={navbar.page_link} data-foo="BARR">
-                    <ul className={this.state.isOpen ? "${navbar.showNav}" : "${navbar.undefined}" }>
+
+                <div className={navbar.page_link}>
+                    <ul className={navbar.nav}>
+
                         <li><Link to="/Home">Home</Link></li>
                         <li><Link to="/About">About</Link></li>
                         <li><Link to="/Contact">Contact</Link></li>
