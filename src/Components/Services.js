@@ -22,6 +22,7 @@ class Services extends Component {
                             <li>Landscapeing</li>
                             <li>Paties</li>
                             <li>Gardening</li>
+                            <li>Planting and potting</li>
                             <li>Design Installation and Maintinance</li>
                         </ul>
                     </div>
