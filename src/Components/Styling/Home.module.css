@@ -1,4 +1,14 @@
 .logo img{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
     width: 800px
 }
+
+.text {
+    text-align: center;
+    color: rgb(83, 136, 128);
+}
+

@@ -10,11 +10,14 @@ class Home extends Component {
 
         return(
             <div className={home}>
-                <h1>Welcome to HB Gardening and landscaping</h1>
+                <div className={home.text}>
+                    <h1>Welcome to HB Gardening and Landscaping</h1>
+                </div>
                 <div className={home.logo}>
                     <img src={logo} alt=""/>
 
                 </div>
+  
             </div>
         )
     }
