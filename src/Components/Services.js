@@ -1,9 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom'
-
-import emailLogo from './img/Email_logo.png'
-import phoneLogo from './img/Phone_logo.png'
-import whatsAppLogo from './img/whatsapp.jpg'
 
 import service from './Styling/Services.module.css'
 
