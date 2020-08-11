@@ -15,12 +15,20 @@ class About extends Component {
             <div className={about.about_container}>
                 <div className={about.about_body}>
                     <br></br>
-                    <h1>Bristol based lans scape gardener</h1>
+                    <h1>We are a Bristol based gardening and landscaping company</h1>
+                    <h1>Our mission is to create and maintain high quality gardens.</h1>
                     <br></br>
-                    <h3>Small team of expereinced and self sufficiant gardeners</h3>
+                </div>
+                <div className={about.motto}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
                     <br></br>
-                    <h3>Based in Bristol however please feel free to contact as we are open to traveling.</h3>
-                    <h3>Feel free to message me and we can discuss the ideas</h3>
+                <div className={about.about_body}>
+                    <h2>HB Gardens & Landscapes offers a range of services. </h2>
+                    <h3>Working in scheduled sessions we are able to give seasonal and timely care to the garden and plants keeping it looking it's best.</h3>
+                    <h3>Depending on the season that may be pruning, lawn care and top dressing borders with chippings or mulch.</h3>
+                    <h3>Other times that it could be weeding, deadheading, grass cutting and hedge cutting.</h3>
+                    <h3>The work required varies greatly and we are able to provide a complete service. </h3>
+                    <br></br>
+                    <h2>Based in Bristol but we cover all of Gloucestershire and Somerset and areas surrounding. </h2>
                     <br></br>
                 </div>
                 
