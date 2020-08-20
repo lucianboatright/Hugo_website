@@ -11,7 +11,7 @@ class Home extends Component {
         return(
             <div className={home}>
                 <div className={home.text}>
-                    <h1>Welcome to HB Gardening and Landscaping</h1>
+                    <h1>Welcome to HB Gardens and Landscapes</h1>
                 </div>
                 <div className={home.logo}>
                     <img src={logo} alt=""/>

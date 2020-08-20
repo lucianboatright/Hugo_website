@@ -17,14 +17,14 @@ class Contact extends Component {
                 <br></br>
                 <h1>Contact Details</h1>
                 <br></br>
-                <h2>Please Contact HB Gardening by using the details below of fill out the box below</h2>
-                <h2>second line</h2>
+                <h2>We would love to hear from you, please get in touch</h2>
+                <h2></h2>
                 <div className="contactinfo">
                         <div className="emailcontact">
-                            <ul><Link to="/Contact"><img src={emailLogo} alt=""/></Link><div className="contactName">Hugo.Boatright@gmail.com</div></ul>
+                            <Link to="/Contact"><img src={emailLogo} alt=""/></Link><div className="contactName">Hugo.Boatright@gmail.com</div>
                         </div>
                         <div className="phonecontact">
-                            <ul><Link to="/Contact"><img src={phoneLogo} alt=""/></Link><div className="contactPhone">077895785400 - (Please leave a message)</div></ul>
+                            <ul><Link to="/Contact"><img src={phoneLogo} alt=""/></Link><div className="contactPhone">07895785400 - (Please leave a message)</div></ul>
                         </div>
                         {/* <div className="whatsappontact">
                             <ul><Link to="/Contact"><img src={whatsAppLogo} alt=""/></Link><div className="whatsappontact">077895785400</div></ul>

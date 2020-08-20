@@ -21,4 +21,4 @@ holdeing page with some pictures of gardens???
 Welcome
 Contains pictures
 brief contact info 
-short discription 
+short discription on company

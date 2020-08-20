@@ -22,18 +22,21 @@ class About extends Component {
                 <div className={about.motto}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
                     <br></br>
                 <div className={about.about_body}>
-                    <h2>HB Gardens & Landscapes offers a range of services. </h2>
-                    <h3>Working in scheduled sessions we are able to give seasonal and timely care to the garden and plants keeping it looking it's best.</h3>
+                    {/* <h2>We cover all of Gloucestershire and Somerset and areas surrounding </h2> */}
+                    <h2> HB Designers offer a range of services both specialist and general. </h2>
+                    <h3>Working in scheduled sessions we are able to give seasonal and timely care to the garden and plants, keeping it looking it's best.</h3>
                     <h3>Depending on the season that may be pruning, lawn care and top dressing borders with chippings or mulch.</h3>
                     <h3>Other times that it could be weeding, deadheading, grass cutting and hedge cutting.</h3>
                     <h3>The work required varies greatly and we are able to provide a complete service. </h3>
                     <br></br>
-                    <h2>Based in Bristol but we cover all of Gloucestershire and Somerset and areas surrounding. </h2>
+                    <h2>We cover all of Bristol, Gloucestershire and Somerset and areas surrounding. </h2>
                     <br></br>
+                    {/* <h2>Based in Bristol but we cover all of Gloucestershire and Somerset and areas surrounding. </h2>
+                    <br></br> */}
                 </div>
                 
                 <div className={about.gardenLogos}>
-                    <div className={about.RHS_box} id="rhs"><h3>HB Gardens and Landscapes are Qualified by the Royal Horticultural Society since 2017</h3>
+                    <div className={about.RHS_box} id="rhs"><h3>Qualified by the Royal Horticultural Society since 2017</h3>
                         <div className={about.RHS_logo}>
                             <Link to="https://www.horticulture.org.uk/"><img src={RHSlogo} alt="" /></Link>
                         </div>
@@ -42,7 +45,7 @@ class About extends Component {
                         <div></div>
                     </div>
                     
-                    <div className={about.RHS_box} id="hort"><h3>HB Gardens and Landscapes is also registered Chartered Insititute of Horticulture since 2018</h3>
+                    <div className={about.RHS_box} id="hort"><h3>Registered Chartered Insititute of Horticulture since 2018</h3>
                         <div className="hort_logo">
                             <Link to="https://www.rhs.org.uk/advice/profile?pid=403"><img src={InstHauto} alt="" /></Link>
                         </div>

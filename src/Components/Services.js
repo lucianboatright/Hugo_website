@@ -10,15 +10,29 @@ class Services extends Component {
             
             <div className={service.Contact_body}>
                 <br></br>
-                <h1>Services</h1>
+                <h1>Design</h1>
+                <div className={service.services}>
+                        <ul className={service.services}>
+                            <li>Both Hard and Soft gardening skills </li>
+                        </ul>
+                    </div>
+                <h1>Install</h1>
+                <div className={service.services}>
+                        <ul className={service.services}>
+                            <li>Planting - we are able to source the plants required and plant them. </li>
+                            <li>Pruning - were experinced in timley pruning including fruit trees </li>
+                            <li>Hedge Trimming</li>
+                            <li>Lawn Care and Mowning</li>
+                            <li>Regular or seasonal specialist maintance</li>
+              
+                        </ul>
+                    </div>
+                <h1>Maintain</h1>
                 <div className={service.services}>
                         <ul className={service.services}>
                             <li>Both Hard and Soft gardening skills </li>
                             <li>Landscapeing</li>
-                            <li>Paties</li>
-                            <li>Gardening</li>
-                            <li>Planting and potting</li>
-                            <li>Design Installation and Maintinance</li>
+              
                         </ul>
                     </div>
 
@@ -28,5 +42,31 @@ class Services extends Component {
         )
     }
 }
+
+// Garden maintenance - We can come for regularly scheduled visits in the year, where we can carry out timely pruning and cared treatment to keep and 
+
+// we can come for regular or one off visits. 
+
+// Planting - we are able to source the plants required and plant them. 
+
+// Pruning - 
+
+// Hedge Trimming
+
+// Lawn Mowing
+
+
+// Landscaping:
+
+// Fencing
+
+// Patios
+
+// Ponds
+
+// Garden Construction
+
+
+// Design  
 
 export default Services;
