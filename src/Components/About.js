@@ -24,7 +24,7 @@ class About extends Component {
                 <div className={about.about_body}>
                     {/* <h2>We cover all of Gloucestershire and Somerset and areas surrounding </h2> */}
                     <h2> HB Designers offer a range of services both specialist and general. </h2>
-                    <h3>Working in scheduled sessions we are able to give seasonal and timely care to the garden and plants, keeping it looking it's best.</h3>
+                    <h3>Working in  sessions we are able to give seasonal and timely care to the garden and plants, keeping it looking it's best.</h3>
                     <h3>Depending on the season that may be pruning, lawn care and top dressing borders with chippings or mulch.</h3>
                     <h3>Other times that it could be weeding, deadheading, grass cutting and hedge cutting.</h3>
                     <h3>The work required varies greatly and we are able to provide a complete service. </h3>
