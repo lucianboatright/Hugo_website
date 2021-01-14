@@ -110,7 +110,7 @@ ul.nav li a:hover.nav{
 /* logo box */
 
 /* nav bar when window is large */
-@media screen and (min-width: 700px){
+@media screen {
     .logo img{
         width: 150px
     }
