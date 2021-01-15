@@ -1,5 +1,9 @@
+
 .Contact_body_main {
     text-align: center;
+    color: rgb(83, 136, 128);
+    background: rgb(243, 248, 233);
+    
 }
 
 .contactinfobody {
@@ -27,7 +31,7 @@
 
 .phonecontactbody img{
     width: 20px;
-    padding: 0px;
+    
 }
 .contactPhonebody {
     margin-left: 10px;

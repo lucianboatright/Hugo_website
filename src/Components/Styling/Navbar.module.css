@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    /* padding: 0px; */
+    padding: 0px;
 }
 
 .contactLink {
@@ -16,9 +16,15 @@
 }
 
 
-.contactinfo {
+.contactinfo a:hover {
     position: relative;
     /* margin-left: 200px; */
+    transition: 1s ease;
+    padding-left: 50px;
+    background: rgb(77, 136, 128);
+    cursor: pointer;
+    border-radius: 5px;
+    
 }
 
 .emailcontact img{
@@ -27,9 +33,11 @@
 }
 .contactName {
     margin-left: 10px;
+    
+    
+
 }
 .emailcontact  img:hover{
-    text-align: center;
     width: 20px;
     transition: 1s ease;
     padding-left: 10px
