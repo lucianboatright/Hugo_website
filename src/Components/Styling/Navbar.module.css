@@ -97,7 +97,7 @@ ul.nav li a{
     text-decoration: none;
     transition: all 1s ease;
     font-size: 20px;
-    border-bottom: 1px solid rgb(10, 3, 105);
+    /* border-bottom: 1px solid rgb(10, 3, 105); */
 
 }
 
@@ -121,7 +121,7 @@ ul.nav li a:hover.nav{
         justify-content: space-between;
         align-items: center;
         padding: 0px;
-        border-bottom: 1px solid rgb(10, 3, 105)
+        border-bottom: 1px solid rgb(223, 116, 87)
 
     }
 
@@ -136,6 +136,7 @@ ul.nav li a:hover.nav{
         list-style: none;
         height: auto;
         background: transparent;
+        
         padding-right: 20px;
     }
 
@@ -149,11 +150,13 @@ ul.nav li a:hover.nav{
 
     }
 
-    nav.navbar ul.nav a{
+    nav.navbar ul.nav a:hover{
         border-radius: 5px;
         background: transparent;
         padding-left: 40px;
-        border-bottom: none;
+        
+        background: rgb(77, 136, 128);
+        color: rgb(223, 116, 87);
     }
     .logoBtn{
         border: none;
