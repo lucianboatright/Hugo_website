@@ -1,33 +1,38 @@
-.Contact_body {
+.Contact_body_main {
     text-align: center;
 }
 
-.contactinfo {
+.contactinfobody {
     position: relative;
+    text-align: center;
     /* margin-left: 200px; */
 }
 
-.emailcontact img{
+.emailcontactbody img{
     width: 20px;
     margin-bottom: 10px;
 }
-.contactName {
+.contactNamebody {
     margin-left: 10px;
+    text-align: center;
+    
 }
-.emailcontact  img:hover{
+.emailcontactbody  img:hover{
+    text-align: center;
     width: 20px;
     transition: 1s ease;
     padding-left: 10px
 }
 
 
-.phonecontact img{
+.phonecontactbody img{
     width: 20px;
+    padding: 0px;
 }
-.contactPhone {
+.contactPhonebody {
     margin-left: 10px;
 }
-.phonecontact  img:hover{
+.phonecontactbody  img:hover{
     width: 20px;
     transition: 1s ease;
     padding-left: 10px

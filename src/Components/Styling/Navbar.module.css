@@ -29,6 +29,7 @@
     margin-left: 10px;
 }
 .emailcontact  img:hover{
+    text-align: center;
     width: 20px;
     transition: 1s ease;
     padding-left: 10px

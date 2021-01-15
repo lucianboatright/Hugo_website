@@ -13,18 +13,20 @@ class Contact extends Component {
 
         return(
             <>
-            <div className="Contact_body">
+            <div className="Contact_body_main">
+                <div className="contact_main_text">
                 <br></br>
                 <h1>Contact Details</h1>
                 <br></br>
                 <h2>We would love to hear from you, please get in touch</h2>
                 <h2></h2>
-                <div className="contactinfo">
-                        <div className="emailcontact">
-                            <Link to="/Contact"><img src={emailLogo} alt=""/></Link><div className="contactName">Hugo.Boatright@gmail.com</div>
+                </div>
+                <div className="contactinfobody">
+                        <div className="emailcontactbody">
+                            <Link to="/Contact"><img src={emailLogo} alt=""/></Link><div className="contactNamebody">Hugo.Boatright@gmail.com</div>
                         </div>
-                        <div className="phonecontact">
-                            <ul><Link to="/Contact"><img src={phoneLogo} alt=""/></Link><div className="contactPhone">07895785400 - (Please leave a message)</div></ul>
+                        <div className="phonecontactbody">
+                            <ul><Link to="/Contact"><img src={phoneLogo} alt=""/></Link><div className="contactPhonebody">07895785400 - (Please leave a message)</div></ul>
                         </div>
                         {/* <div className="whatsappontact">
                             <ul><Link to="/Contact"><img src={whatsAppLogo} alt=""/></Link><div className="whatsappontact">077895785400</div></ul>
