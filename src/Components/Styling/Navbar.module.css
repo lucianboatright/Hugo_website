@@ -1,7 +1,7 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
-}
+} */
 
 .contactLink {
     display: flex;
@@ -9,7 +9,15 @@
     text-decoration: none;
 }
 
+.contactName {
+    text-decoration: 'none';
+    color: 'red';
+}
 
+.contactPhone {
+    text-decoration: 'none';
+    color: 'red';
+}
 
 .logo img{
     width: 80px;

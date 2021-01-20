@@ -1,15 +1,21 @@
 import React, {Component} from 'react';
-import logo from './img/HB_logo.png'
+
+
+import picture from "./Styling/Pictures.module.css"
 
 class Pictures extends Component {
 
     render(){
 
         return(
-            <>
-            <h1>Empty component waiting for content</h1>
-            <img src={logo} alt=""/>
-            </>
+            <div className={picture}>
+                {/* <div className={picture.text}>
+                    <h1>Welcome to HB Gardens and Landscapes</h1>
+                </div> */}
+                <h1>Hello there</h1>
+
+  
+            </div>
         )
     }
 }

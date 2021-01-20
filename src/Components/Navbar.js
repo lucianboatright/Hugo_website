@@ -51,9 +51,9 @@ class Navbar extends Component {
                     <ul className={navbar.nav}>
                         <li><Link to="/Home">Home</Link></li>
                         <li><Link to="/About">About</Link></li>
+                        <li><Link to="/Pictures">Pictures</Link></li>
                         <li><Link to="/Services">Services</Link></li>
                         <li><Link to="/Contact">Contact</Link></li>
-                        {/* <li><Link to="/Pictures">Pictures</Link></li> */}
                     </ul>
                 </div>
           </nav>
