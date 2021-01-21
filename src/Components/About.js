@@ -15,8 +15,10 @@ class About extends Component {
             <div className={about.about_container}>
                 <div className={about.about_body}>
                     <br></br>
-                    <h1>We are a Bristol based gardening and landscaping company</h1>
+                    <h1>We are a Qualified Bristol based gardening and landscaping company,</h1>
                     <h1>Our mission is to create and maintain high quality gardens.</h1>
+                    <br></br>
+                    <h2>We cover all of Bristol, Gloucestershire and Somerset and areas surrounding. </h2>
                     <br></br>
                 </div>
                 <div className={about.motto}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
@@ -29,13 +31,13 @@ class About extends Component {
                     <h3>Our Team is expereinces in working on gardens at all times of the year, weather you are looking to redesign your garden in winter, </h3>
                     <h3>plant in spring or maintian throughout the summer.</h3>
                     <br></br>
+                    <h2>We are fully tooled and have expereince renting and using heavy machinery as well.</h2>
+                    <br></br>
                     <h3>HB Design is Qualified by the Royal Horticultural Society and a Registered gardener at the Chartered Insititute of Horticilture</h3>
                     {/* <h3>Working in scheduled sessions we are able to give seasonal and timely care to the garden and plants, keeping it looking it's best.</h3>
                     <h3>Depending on the season that may be pruning, lawn care and top dressing borders with chippings or mulch.</h3>
                     <h3>Other times that it could be weeding, deadheading, grass cutting and hedge cutting.</h3>
                     <h3>The work required varies greatly and we are able to provide a complete service. </h3> */}
-                    <br></br>
-                    <h2>We cover all of Bristol, Gloucestershire and Somerset and areas surrounding. </h2>
                     <br></br>
                     {/* <h2>Based in Bristol but we cover all of Gloucestershire and Somerset and areas surrounding. </h2>
                     <br></br> */}

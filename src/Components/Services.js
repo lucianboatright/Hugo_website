@@ -13,13 +13,15 @@ class Services extends Component {
                 <h1>Design</h1>
                 <div className={service.services}>
                         <ul className={service.services}>
+                            <li>Re-Designing or starting from scratch</li>
+                            <li>Both Hard and Soft gardening skills </li>
                             <li>Both Hard and Soft gardening skills </li>
                         </ul>
                     </div>
                 <h1>Install</h1>
                 <div className={service.services}>
                         <ul className={service.services}>
-                            <li>Planting - we are able to source the plants required and plant them. </li>
+                            <li>Planting - we are able to source as plant a huge variety of options from plants upto trees </li>
                             <li>Pruning - were experinced in timley pruning including fruit trees </li>
                             <li>Hedge Trimming</li>
                             <li>Lawn Care and Mowning</li>
@@ -34,7 +36,7 @@ class Services extends Component {
                             <li>Landscapeing</li>
               
                         </ul>
-                    </div>
+                </div>
 
      
             </div>
