@@ -15,7 +15,7 @@ class Services extends Component {
                         <ul className={service.services}>
                             <li>Re-Designing or starting from scratch</li>
                             <li>Both Hard and Soft gardening skills </li>
-                            <li>Both Hard and Soft gardening skills </li>
+                            <li>We will work with you or via a consultation to design gardens of all types </li>
                         </ul>
                     </div>
                 <h1>Install</h1>
@@ -26,6 +26,7 @@ class Services extends Component {
                             <li>Hedge Trimming</li>
                             <li>Lawn Care and Mowning</li>
                             <li>Regular or seasonal specialist maintance</li>
+                            <li>Herb gardens of vegtibals patches to fit in with the garden</li>
               
                         </ul>
                     </div>
