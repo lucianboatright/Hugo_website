@@ -16,6 +16,8 @@
     position: relative;
     text-align: center;
     /* margin-left: 200px; */
+    flex-direction: row;
+    align-items: center;
 }
 
 .emailcontactbody img{
@@ -40,7 +42,7 @@
     
 }
 .contactPhonebody {
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .phonecontactbody  img:hover{
     width: 20px;
