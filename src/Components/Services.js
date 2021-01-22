@@ -10,10 +10,10 @@ class Services extends Component {
             
             <div className={service.Contact_body}>
                 <br></br>
-                <h1>Design</h1>
+                <h1>Design Options</h1>
                 <div className={service.services}>
                         <ul className={service.services}>
-                            <li>Re-Designing or starting from scratch</li>
+                            <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. Taking consideration of maintiance and longevity.</li>
                             <li>Both Hard and Soft gardening skills </li>
                             <li>We will work with you or via a consultation to design gardens of all types </li>
                         </ul>
