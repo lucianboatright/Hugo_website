@@ -23,10 +23,14 @@ class Services extends Component {
                         <ul className={service.services}>
                             <li>Planting - we are able to source as plant a huge variety of options from plants upto trees </li>
                             <li>Pruning - were experinced in timley pruning including fruit trees </li>
-                            <li>Hedge Trimming</li>
-                            <li>Lawn Care and Mowning</li>
-                            <li>Regular or seasonal specialist maintance</li>
-                            <li>Herb gardens of vegtibals patches to fit in with the garden</li>
+                            <ul className={service.maint_list}>
+                                <li>Hedge Trimming</li>
+                                <li>Lawn Care, Seeding, Turfing or Mowning</li>
+                                <li>Regular or seasonal specialist maintance</li>
+                                <li>Herb gardens of vegtibals patches to fit in with the garden</li>
+                            </ul>
+                            <li></li>
+                       
               
                         </ul>
                     </div>
