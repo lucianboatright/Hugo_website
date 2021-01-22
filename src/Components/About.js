@@ -27,9 +27,12 @@ class About extends Component {
                     {/* <h2>We cover all of Gloucestershire and Somerset and areas surrounding </h2> */}
                     <h2> HB Designers offer a range of services both specialist and general. </h2>
                     <br></br>
-                    <h3>We have an expereinced team to build and maintian gardens of all types and sizes</h3>
+                    {/* <h3>We have an expereinced team to build and maintian gardens of all types and sizes</h3>
                     <h3>Our Team is expereinces in working on gardens at all times of the year, weather you are looking to redesign your garden in winter, </h3>
-                    <h3>plant in spring or maintian throughout the summer.</h3>
+                    <h3>plant in spring or maintian throughout the summer.</h3> */}
+                    <h3>We have experince designing a wide range of gardens from wild medows and vegitable gardens </h3>
+                    <h3>or more regimented gardens with pools, fountains and patios</h3>
+                    <h3>Weather your garden is small or large we are always happy making your garden a place you relish spengin time in</h3>
                     <br></br>
                     <h2>We are fully tooled and have expereince renting and using heavy machinery as well.</h2>
                     <br></br>
