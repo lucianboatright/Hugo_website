@@ -4,6 +4,24 @@ import service from './Styling/Services.module.css'
 
 class Services extends Component {
 
+    constructor(props) {
+        super(props); 
+        this.handleMouseHover = this.handleMouseHover.bind(this)
+        this.state = {
+            isHovering: false,
+        };
+    }
+
+    handleMouseHover() {
+        this.setState(this.toggleHoverState);
+    }
+
+    toggleHoverState(state) {
+        return {
+            isHovering: !state.isHovering,
+        }
+    }
+
     render(){
 
         return(
@@ -11,13 +29,15 @@ class Services extends Component {
             <div className={service.Contact_body}>
                 <br></br>
                 <h1>Design Options</h1>
-                <div className={service.services}>
-                        <ul className={service.services}>
+                <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
+                    <ul> Colaberation </ul>
+                    <ul> {this.state.isHovering && <div>HARARR its working</div>} </ul>
+                        {/* <ul className={service.services}>
                             <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. Taking consideration multiple leves of maintince</li>
                             <li>Both Hard and Soft gardening skills </li>
                             <li>We have created a wide range of  </li>
                             <li>We will work with you or via a consultation to design gardens of all types </li>
-                        </ul>
+                        </ul> */}
                     </div>
                 <h1>Install</h1>
                 <div className={service.services}>
