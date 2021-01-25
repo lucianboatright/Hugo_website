@@ -36,7 +36,7 @@ class Services extends Component {
                             <ul className={service.services}>
                             <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. Taking consideration multiple leves of maintince</li>
                             <li>Both Hard and Soft gardening skills </li>
-                            <li>We have created a wide range of  </li>
+                            <li>We have created a wide range of words </li>
                             <li>We will work with you or via a consultation to design gardens of all types </li>
                         </ul> 
                     } </ul>
