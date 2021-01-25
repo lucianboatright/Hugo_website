@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactHover from 'react-hover';
 
 import service from './Styling/Services.module.css'
 
@@ -31,14 +32,16 @@ class Services extends Component {
                 <h1>Design Options</h1>
                 <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
                     <ul> Colaberation </ul>
-                    <ul> {this.state.isHovering && <div>HARARR its working</div>} </ul>
-                        {/* <ul className={service.services}>
+                        <ul> { this.state.isHovering && 
+                            <ul className={service.services}>
                             <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. Taking consideration multiple leves of maintince</li>
                             <li>Both Hard and Soft gardening skills </li>
                             <li>We have created a wide range of  </li>
                             <li>We will work with you or via a consultation to design gardens of all types </li>
-                        </ul> */}
-                    </div>
+                        </ul> 
+                    } </ul>
+                    <ul>Formal Garden Design</ul>
+                </div>
                 <h1>Install</h1>
                 <div className={service.services}>
                         <ul className={service.services}>
