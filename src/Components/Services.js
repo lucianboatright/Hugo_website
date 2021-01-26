@@ -66,12 +66,12 @@ class Services extends Component {
 
 
                 <div className={"subcontainer"}>
-                  <div className={"subleft"}>
+                  {/* <div className={"subleft"}>
                     <pre>
                       {`
                     As shown we offer a wide range of Design options`}
                     </pre>
-                  </div>
+                  </div> */}
                   <div className={"subright"}>
                     <ReactHover options={optionsCursorTrueWithMargin}>
                       <Trigger type="trigger">
@@ -102,12 +102,12 @@ class Services extends Component {
                 </div>
 
                 <div className={"subcontainer"}>
-                  <div className={"subleft"}>
+                  {/* <div className={"subleft"}>
                     <pre>
                       {`
                     Options 2`}
                     </pre>
-                  </div>
+                  </div> */}
                   <div className={"subright"}>
                     <ReactHover options={optionsCursorTrueWithMargin}>
                       <Trigger type="trigger">
