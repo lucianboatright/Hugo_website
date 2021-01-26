@@ -24,19 +24,18 @@
     width: 80px;
 }
 
-.navbar.motto {
+/* .navbar.motto {
     display: inline-block;
     text-align: center;
-}
+} */
 
 .motto {
-    display: inline-block;
-    text-align: center;
-    content: '';
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    width: 500px;
+        display: inline-block;
+        left: 0;
+        right: 0;
+        margin:0;
+        float:none;
+
     color: rgb(213,117,86);
 }
 

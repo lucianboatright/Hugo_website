@@ -38,7 +38,7 @@ class Navbar extends Component {
                             <Link className={navbar.contactLink} to="/Contact" ><img src={phoneLogo} alt=""/><div className="contactPhone">    07895785400 </div></Link>
                         </div>
                     </div>
-                    <div className={navbar.motto}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
+                    
 
                     <div className={navbar.btn} onClick={this.menuClick}>
                         <div className={navbar.bar}></div>
@@ -46,7 +46,9 @@ class Navbar extends Component {
                         <div className={navbar.bar}></div>
                         <div className={navbar.bar}></div>
                     </div>
+                    
                 </div>
+                <div className={navbar.motto}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
 
                 <div className={navbar.page_link}>
                     <ul className={navbar.nav}>
