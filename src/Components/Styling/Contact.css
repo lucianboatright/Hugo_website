@@ -1,8 +1,12 @@
-*{
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+.contact_body_main {
     margin: 0px;
     padding: 0px;
 }
-
 
 .Contact_body_main {
     text-align: center;

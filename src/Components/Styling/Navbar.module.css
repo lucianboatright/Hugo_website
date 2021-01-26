@@ -24,6 +24,23 @@
     width: 80px;
 }
 
+.navbar.motto {
+    display: inline-block;
+    text-align: center;
+}
+
+.motto {
+    display: inline-block;
+    text-align: center;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 500px;
+    color: rgb(213,117,86);
+}
+
+
 
 .contactinfo a:hover {
     position: relative;

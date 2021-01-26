@@ -35,9 +35,10 @@ class Navbar extends Component {
                             <Link className={navbar.contactLink} to="/Contact" ><img src={emailLogo} alt=""/><div className="contactName">    Hugo.Boatright@gmail.com</div></Link>
                         </div>
                         <div className={navbar.phonecontact}>
-                            <Link className={navbar.contactLink} to="/Contact" ><img src={phoneLogo} alt=""/><div className="contactPhone">    07895785400 - (Please leave a message)</div></Link>
+                            <Link className={navbar.contactLink} to="/Contact" ><img src={phoneLogo} alt=""/><div className="contactPhone">    07895785400 </div></Link>
                         </div>
                     </div>
+                    <div className={navbar.motto}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
 
                     <div className={navbar.btn} onClick={this.menuClick}>
                         <div className={navbar.bar}></div>
