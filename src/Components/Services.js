@@ -29,17 +29,19 @@ class Services extends Component {
             
             <div className={service.Contact_body}>
                 <br></br>
-                <h1>Design Options</h1>
-                <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
-                    <ul> Colaberation </ul>
-                        <ul> { this.state.isHovering && 
-                            <ul className={service.services}>
-                            <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. Taking consideration multiple leves of maintince</li>
-                            <li>Both Hard and Soft gardening skills </li>
-                            <li>We have created a wide range of  </li>
-                            <li>We will work with you or via a consultation to design gardens of all types </li>
-                        </ul> 
-                    } </ul>
+                <div className={service.design}>
+                    <h1>Design Options</h1>
+                    <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
+                        <ul> Colaberation </ul>
+                            <ul> { this.state.isHovering && 
+                                <ul className={service.services}>
+                                <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. Taking consideration multiple leves of maintince</li>
+                                <li>Both Hard and Soft gardening skills </li>
+                                <li>We have created a wide range of  </li>
+                                <li>We will work with you or via a consultation to design gardens of all types </li>
+                            </ul> 
+                        } </ul>
+                    </div>
                 </div>
                 <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
                     <ul> Formal Garden Design </ul>

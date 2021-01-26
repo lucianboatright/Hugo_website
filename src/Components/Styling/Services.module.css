@@ -10,11 +10,11 @@
 
 }
 
-.services ul li a:hover{
+/* .services ul li a:hover{
     background: rgb(77, 136, 128);
     color: rgb(223, 116, 87);
     padding-left: 18px;
-}
+} */
 
 .services ul {
     background: rgb(243, 248, 233);
@@ -30,19 +30,30 @@ body, html {
     background: rgb(243, 248, 233)
 }
 
-.services ul{
+.services ul {
 
-    list-style: none;
-    height: auto;
-    background: transparent;
-    padding-left: 20px;
-}
-.services ul a:hover{
-    transition: 1s ease;
-    padding-right: 10px;
+    color: rgb(43, 85, 79);
+
+    padding-left: 10px;
     list-style: none;
     height: auto;
     background: transparent;
     padding-right: 20px;
 }
+
+.service a:hover{
+    transition: 1s ease;
+    background: rgb(223, 116, 87);
+}
+/* .design ul a:hover {
+    transition: 1s ease;
+    background: rgb(223, 116, 87);
+    color: rgb(43, 85, 79);
+    transition: 1s ease;
+    padding-left: 10px;
+    list-style: none;
+    height: auto;
+    background: transparent;
+    /* padding-right: 20px; */
+
 
