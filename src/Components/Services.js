@@ -24,19 +24,16 @@ class Services extends Component {
         return (
             <div className={"container"}>
               <div className={"title"}>
-                {" "}
-                React-hover
-                <div className={"description"}>
-                  <a href="https://github.com/cht8687/react-hover">Github</a>
-                </div>
+      
+  
               </div>
               <div className={"main"}>
-                <h2 className={"subtitle"}>
+                {/* <h2 className={"subtitle"}>
                   {" "}
                   Use custom components as trigger and hover{" "}
-                </h2>
+                </h2> */}
                 <div className={"subcontainer"}>
-                  <div className={"subleft"}>
+                  {/* <div className={"subleft"}>
                     <pre>
                       {`
                       <ReactHover
@@ -49,8 +46,8 @@ class Services extends Component {
                         </Hover>
                         </ReactHover>`}
                     </pre>
-                  </div>
-                  <div className={"subright"}>
+                  </div> */}
+                  {/* <div className={"subright"}>
                     <ReactHover options={optionsCursorTrueWithMargin}>
                       <Trigger type="trigger">
                         <TriggerComponent />
@@ -59,26 +56,20 @@ class Services extends Component {
                         <HoverComponent />
                       </Hover>
                     </ReactHover>
-                  </div>
+                  </div> */}
                 </div>
-                <h2 className={"subtitle"}> Use HTML as trigger and hover </h2>
+                {/* <h2 className={"subtitle"}> Use HTML as trigger and hover </h2> */}
+                
+
+
+
+
+
                 <div className={"subcontainer"}>
                   <div className={"subleft"}>
                     <pre>
                       {`
-                    <ReactHover
-                    options={optionsCursorTrueWithMargin}>
-                    <Trigger type='trigger'>
-                      <h1 style={{ background: '#44B39D', width: '200px', fontSize: '1.5em', color: 'white' }}> <p>Hover on me</p></h1>
-                    </Trigger>
-                    <Hover type='hover'>
-                      <div className={componentstyles.hover}>
-                        <img className={componentstyles.thumbnail} alt="Albert Einstein" src="https://images.gr-assets.com/authors/1429114964p2/9810.jpg" />
-                        <blockquote className={componentstyles.quote}> Two things are infinite: the universe and human stupidity; and I'm not sure about the universe. </blockquote>
-                        <p className={componentstyles.people}>--Albert Einstein</p>
-                      </div>
-                    </Hover>
-                  </ReactHover>`}
+                    As shown we offer a wide range of Design options`}
                     </pre>
                   </div>
                   <div className={"subright"}>
@@ -93,22 +84,53 @@ class Services extends Component {
                           }}
                         >
                           {" "}
-                          <p>Hover on me</p>
+                          <p>Design</p>
                         </h1>
                       </Trigger>
                       <Hover type="hover">
                         <div className={"hover"}>
-                          <img
-                            className={"thumbnail"}
-                            alt="Albert Einstein"
-                            src="https://images.gr-assets.com/authors/1429114964p2/9810.jpg"
-                          />
                           <blockquote className={"quote"}>
                             {" "}
-                            Two things are infinite: the universe and human stupidity;
-                            and I'm not sure about the universe.{" "}
+                            <ul>Item 1</ul>
+                            <ul>Item 2</ul>{" "}
                           </blockquote>
-                          <p className={"people"}>--Albert Einstein</p>
+                          <p className={"people"}><br></br>*Always feel free to contact us</p>
+                        </div>
+                      </Hover>
+                    </ReactHover>
+                  </div>
+                </div>
+
+                <div className={"subcontainer"}>
+                  <div className={"subleft"}>
+                    <pre>
+                      {`
+                    Options 2`}
+                    </pre>
+                  </div>
+                  <div className={"subright"}>
+                    <ReactHover options={optionsCursorTrueWithMargin}>
+                      <Trigger type="trigger">
+                        <h1
+                          style={{
+                            background: "#44B39D",
+                            width: "200px",
+                            fontSize: "1.5em",
+                            color: "white"
+                          }}
+                        >
+                          {" "}
+                          <p>Installing</p>
+                        </h1>
+                      </Trigger>
+                      <Hover type="hover">
+                        <div className={"hover"}>
+                          <blockquote className={"quote"}>
+                            {" "}
+                            <ul>2 Item 1</ul>
+                            <ul>2 Item 2</ul>{" "}
+                          </blockquote>
+                          <p className={"people"}><br></br>*Always feel free to contact us</p>
                         </div>
                       </Hover>
                     </ReactHover>
