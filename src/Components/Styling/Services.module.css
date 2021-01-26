@@ -35,6 +35,14 @@ body, html {
     list-style: none;
     height: auto;
     background: transparent;
+    padding-left: 20px;
+}
+.services ul a:hover{
+    transition: 1s ease;
+    padding-right: 10px;
+    list-style: none;
+    height: auto;
+    background: transparent;
     padding-right: 20px;
 }
 

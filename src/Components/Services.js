@@ -40,7 +40,17 @@ class Services extends Component {
                             <li>We will work with you or via a consultation to design gardens of all types </li>
                         </ul> 
                     } </ul>
-                    <ul>Formal Garden Design</ul>
+                </div>
+                <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
+                    <ul> Formal Garden Design </ul>
+                        <ul> { this.state.isHovering && 
+                            <ul className={service.services}>
+                                <li>Second list of info</li>
+                            <li>Both Hard and Soft gardening skills </li>
+                            <li>We have created a wide range of  </li>
+                            <li>We will work with you or via a consultation to design gardens of all types </li>
+                        </ul> 
+                    } </ul>
                 </div>
                 <h1>Install</h1>
                 <div className={service.services}>
