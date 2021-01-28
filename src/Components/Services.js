@@ -63,6 +63,17 @@ class Services extends Component {
                 </div>
                 <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
                     <ul> Formal Garden Design </ul>
+                    <AnimationWrapper 
+                        className='anitmation-wrapper' 
+                        config={{
+                            color: {
+                                initial: 'blue',
+                                onHover: 'red',
+                            },
+                            background: {
+                                onHover: 'blue',
+                            }
+                        }}>
                         <ul> { this.state.isHovering && 
                             <ul className={service.services}>
                                 <li>Second list of info</li>
@@ -71,6 +82,7 @@ class Services extends Component {
                             <li>We will work with you or via a consultation to design gardens of all types </li>
                         </ul> 
                     } </ul>
+                    </AnimationWrapper>
                 </div>
                 <h1>Install</h1>
                 <div className={service.services}>
