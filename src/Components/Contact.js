@@ -15,11 +15,11 @@ class Contact extends Component {
             <>
             <div className="Contact_body_main">
                 <div className="contact_main_text">
-                <br></br>
-                <h1>Contact Details</h1>
-                <br></br>
-                <h2>We would love to hear from you, please get in touch</h2>
-                <h2></h2>
+                    <br></br>
+                    <h1>Contact Details</h1>
+                    <br></br>
+                    <h2>We would love to hear from you, please get in touch</h2>
+                    <h2></h2>
                 </div>
                 <div className="contactinfobody">
                         <div className="emailcontactbody">

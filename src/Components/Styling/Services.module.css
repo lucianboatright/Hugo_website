@@ -31,9 +31,8 @@ body, html {
 }
 
 .services ul {
-
+    /* transition-delay: 10s; */
     color: rgb(43, 85, 79);
-
     padding-left: 10px;
     list-style: none;
     height: auto;
@@ -41,9 +40,10 @@ body, html {
     padding-right: 20px;
 }
 
-.service a:hover{
-    transition: 1s ease;
+.service ul:onHover {
+    transition: ease-in-out;
     background: rgb(223, 116, 87);
+    color: red;
 }
 /* .design ul a:hover {
     transition: 1s ease;

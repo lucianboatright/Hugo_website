@@ -1,7 +1,11 @@
 import React, {Component} from 'react';
 import ReactHover from 'react-hover';
+import { AnimationWrapper } from 'react-hover-animation'
 
 import service from './Styling/Services.module.css'
+
+
+
 
 class Services extends Component {
 
@@ -10,6 +14,7 @@ class Services extends Component {
         this.handleMouseHover = this.handleMouseHover.bind(this)
         this.state = {
             isHovering: false,
+            
         };
     }
 
@@ -20,6 +25,7 @@ class Services extends Component {
     toggleHoverState(state) {
         return {
             isHovering: !state.isHovering,
+            
         }
     }
 
@@ -33,18 +39,43 @@ class Services extends Component {
                     <h1>Design Options</h1>
                     <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
                         <ul> Colaberation </ul>
-                            <ul> { this.state.isHovering && 
-                                <ul className={service.services}>
-                                <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. Taking consideration multiple leves of maintince</li>
-                                <li>Both Hard and Soft gardening skills </li>
-                                <li>We have created a wide range of  </li>
-                                <li>We will work with you or via a consultation to design gardens of all types </li>
-                            </ul> 
-                        } </ul>
+                        <AnimationWrapper 
+                        className='anitmation-wrapper' 
+        
+                        config={{
+                            color: {
+                                initial: 'blue',
+                                onHover: 'red',
+                            },
+                            background: {
+                                onHover: 'blue',
+                            }         
+                        }} >
+                                <ul> { this.state.isHovering && 
+                                    <ul className={service.services}>
+                                    <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. Taking consideration multiple leves of maintince</li>
+                                    <li>Both Hard and Soft gardening skills </li>
+                                    <li>We have created a wide range of  </li>
+                                    <li>We will work with you or via a consultation to design gardens of all types </li>
+                                </ul> 
+                            } </ul>
+                        </AnimationWrapper>
                     </div>
                 </div>
                 <div className={service.services} onMouseEnter={this.handleMouseHover} onMouseLeave={this.handleMouseHover}>
                     <ul> Formal Garden Design </ul>
+                    <AnimationWrapper 
+                        className='anitmation-wrapper' 
+        
+                        config={{
+                            color: {
+                                initial: 'blue',
+                                onHover: 'red',
+                            },
+                            background: {
+                                onHover: 'blue',
+                            }         
+                        }} >
                         <ul> { this.state.isHovering && 
                             <ul className={service.services}>
                                 <li>Second list of info</li>
@@ -53,6 +84,7 @@ class Services extends Component {
                             <li>We will work with you or via a consultation to design gardens of all types </li>
                         </ul> 
                     } </ul>
+                    </AnimationWrapper>
                 </div>
                 <h1>Install</h1>
                 <div className={service.services}>
