@@ -3,9 +3,14 @@ import {Link} from 'react-router-dom'
 
 import emailLogo from './img/Email_logo.png'
 import phoneLogo from './img/Phone_logo.png'
+import facebook from './img/Facebook.png'
 import whatsAppLogo from './img/whatsapp.jpg'
 
 import './Styling/Contact.css'
+
+function openTab() {
+    window.open('https://www.facebook.com/HBGDNS')
+}
 
 class Contact extends Component {
 
@@ -29,6 +34,7 @@ class Contact extends Component {
 
                             {/* <Link className={navbar.contactLink} to="/Contact" ><img src={emailLogo} alt=""/><div className="contactName">    Hugo.Boatright@gmail.com</div></Link> */}
                         </div>
+                        <br></br>
                         <div className="phonecontactbody">
                             <Link to="/Contact"><img src={phoneLogo} alt=""/></Link>
                             <div className="contactPhonebody">07895785400 - (Please leave a message)</div>
@@ -36,6 +42,10 @@ class Contact extends Component {
                         {/* <div className="whatsappontact">
                             <ul><Link to="/Contact"><img src={whatsAppLogo} alt=""/></Link><div className="whatsappontact">077895785400</div></ul>
                         </div> */}
+                        <br></br>
+                        <div className="facebookcontactbody">
+                            <Link onClick={openTab}><img src={facebook} alt="" /> Facebook Link </Link>
+                        </div>
                     </div>
             </div>
             </>
