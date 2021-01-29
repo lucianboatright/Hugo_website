@@ -3,50 +3,92 @@
     padding: 0px;
 }
 
-.contact_body_main {
+/* .contact_body_main {
     margin: 0px;
     padding: 0px;
-}
+} */
+
 
 .Contact_body_main {
     text-align: center;
-
     color: rgb(83, 136, 128);
     background: rgb(243, 248, 233);
     
 }
 
-.contactinfobody {
+.emailcontactbody img {
+    width: 20px;
+}
+.emailcontactbody {
+    margin-bottom: -10px;
     position: relative;
     text-align: center;
-    /* margin-left: 200px; */
     flex-direction: row;
     align-items: center;
 }
 
-.emailcontactbody img{
+
+
+.phonecontactbody img {
     width: 20px;
-    margin-bottom: 10px;
 }
-.contactNamebody {
+
+.facebookcontactbody img{
+    width: 50px;
+}
+
+/* .facebookcontactbody img{
+    margin-bottom: -10px;
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    width: 50px;
+} */
+
+/* .emailcontactbody {
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+} */
+
+/* .contactinfobody {
+    position: relative;
+    align-items: center;
+} */
+
+/* .emailcontactbody img{
+    margin-bottom: -10px;
+    position: relative;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    width: 40px;
+} */
+/* .contactNamebody {
     margin-left: 10px;
+    
     text-align: center;
     
-}
-.emailcontactbody  img:hover{
+} */
+/* .emailcontactbody  img:hover{
     text-align: center;
     width: 20px;
     transition: 1s ease;
     padding-left: 10px
-}
+} */
 
 
-.phonecontactbody img{
-    width: 20px;
+
+
+/* .phonecontactbody img{
+    width: 40px;
     
-}
+} */
+/*
 .contactPhonebody {
-    /* margin-left: 10px; */
+    margin-left: 10px;
 }
 .phonecontactbody  img:hover{
     width: 20px;
@@ -64,4 +106,4 @@
     width: 20px;
     transition: 1s ease;
     padding-left: 10px
-}
+} */

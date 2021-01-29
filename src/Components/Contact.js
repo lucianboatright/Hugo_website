@@ -30,14 +30,14 @@ class Contact extends Component {
                         <div className="emailcontactbody">
                             {/* <Link to="/Contact"><img src={emailLogo} alt=""/></Link>
                             <div className="contactNamebody">Hugo.Boatright@gmail.com</div> */}
-                            <Link className={"emailcontactbody"} to="/Contact"><img src={emailLogo} alt="" /><div className="contactNamebody">Hugo.Boatright@gmail.com</div></Link>
+                            <Link  to="/Contact"><img src={emailLogo} alt="" /><div className="contactNamebody"> Hugo.Boatright@gmail.com</div></Link>
 
                             {/* <Link className={navbar.contactLink} to="/Contact" ><img src={emailLogo} alt=""/><div className="contactName">    Hugo.Boatright@gmail.com</div></Link> */}
                         </div>
                         <br></br>
                         <div className="phonecontactbody">
                             <Link to="/Contact"><img src={phoneLogo} alt=""/></Link>
-                            <div className="contactPhonebody">07895785400 - (Please leave a message)</div>
+                            <div className="contactPhonebody">07895785400 - (We may be busy so please leave a message)</div>
                         </div>
                         {/* <div className="whatsappontact">
                             <ul><Link to="/Contact"><img src={whatsAppLogo} alt=""/></Link><div className="whatsappontact">077895785400</div></ul>
