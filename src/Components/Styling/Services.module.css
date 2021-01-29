@@ -41,7 +41,7 @@ body, html {
 }
 
 .service ul:onHover {
-    transition: ease-in-out;
+   
     background: rgb(223, 116, 87);
     color: red;
 }

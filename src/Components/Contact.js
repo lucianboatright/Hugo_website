@@ -30,9 +30,10 @@ class Contact extends Component {
                         <div className="emailcontactbody">
                             {/* <Link to="/Contact"><img src={emailLogo} alt=""/></Link>
                             <div className="contactNamebody">Hugo.Boatright@gmail.com</div> */}
-                            <Link  to="/Contact"><img src={emailLogo} alt="" /><div className="contactNamebody"> Hugo.Boatright@gmail.com</div></Link>
-
-                            {/* <Link className={navbar.contactLink} to="/Contact" ><img src={emailLogo} alt=""/><div className="contactName">    Hugo.Boatright@gmail.com</div></Link> */}
+                            {/* <Link  to="/Contact"><img src={emailLogo} alt="" /><div className="contactNamebody"> Hugo.Boatright@gmail.com</div></Link> */}
+                            
+                            <Link className={"contactNamebody"} to="/Contact" ><img src={emailLogo} alt=""/></Link>
+                            <div className="contactName">    Hugo.Boatright@gmail.com</div>
                         </div>
                         <br></br>
                         <div className="phonecontactbody">
@@ -44,7 +45,8 @@ class Contact extends Component {
                         </div> */}
                         <br></br>
                         <div className="facebookcontactbody">
-                            <Link onClick={openTab}><img src={facebook} alt="" /> Facebook Link </Link>
+                            <Link onClick={openTab}><img src={facebook} alt="" /><div> Facebook Link </div></Link>
+                            
                         </div>
                     </div>
             </div>

@@ -20,11 +20,8 @@
     width: 20px;
 }
 .emailcontactbody {
-    margin-bottom: -10px;
-    position: relative;
-    text-align: center;
-    flex-direction: row;
-    align-items: center;
+    padding: 30px;
+    display: inline-block;
 }
 
 
@@ -37,14 +34,10 @@
     width: 50px;
 }
 
-/* .facebookcontactbody img{
-    margin-bottom: -10px;
-    position: relative;
-    text-align: center;
-    flex-direction: row;
-    align-items: center;
-    width: 50px;
-} */
+.facebookcontactbody {
+
+
+}
 
 /* .emailcontactbody {
     position: relative;

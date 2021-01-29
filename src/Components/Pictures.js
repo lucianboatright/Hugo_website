@@ -19,13 +19,13 @@ class Pictures extends Component {
                     <p className="legend">Legend 1</p>
                 </div>
                 <div>
-                    <img src="assets/2.jpeg" />
+                    <img src="./ImageGallery6597098_orig.jpg" />
                     <p className="legend">Legend 2</p>
                 </div>
-                <div>
+                {/* <div>
                     <img src="assets/3.jpeg" />
                     <p className="legend">Legend 3</p>
-                </div>
+                </div> */}
             </Carousel>
         );
     }
