@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ReactHover from 'react-hover';
+// import ReactHover from 'react-hover';
 import { AnimationWrapper } from 'react-hover-animation'
 
 import service from './Styling/Services.module.css'

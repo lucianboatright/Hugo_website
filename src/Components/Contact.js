@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import emailLogo from './img/Email_logo.png'
 import phoneLogo from './img/Phone_logo.png'
 import facebook from './img/Facebook.png'
-import whatsAppLogo from './img/whatsapp.jpg'
+// import whatsAppLogo from './img/whatsapp.jpg'
 
 import './Styling/Contact.css'
 
