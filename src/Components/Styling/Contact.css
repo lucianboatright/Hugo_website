@@ -1,9 +1,9 @@
 *{
     margin: 0px;
-    padding: 0px;
+    /* padding: 0px; */
 }
 
-/* .contact_body_main {
+/* .Contact_body_main {
     margin: 0px;
     padding: 0px;
 } */
@@ -23,7 +23,15 @@
     padding: 30px;
     display: inline-block;
 }
-
+.emailcontactbody.grow {
+    padding: 30px;
+    display: inline-block;
+    font: 200px;
+}
+.emailcontactbody img:hover{
+    width: 100px;
+    font: 100px;
+}
 
 
 .phonecontactbody img {
@@ -34,10 +42,10 @@
     width: 50px;
 }
 
-.facebookcontactbody {
+/* .facebookcontactbody {
 
 
-}
+} */
 
 /* .emailcontactbody {
     position: relative;

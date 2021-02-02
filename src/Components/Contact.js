@@ -24,7 +24,7 @@ class Contact extends Component {
                     <h1>Contact Details</h1>
                     <br></br>
                     <h2>We would love to hear from you, please get in touch</h2>
-                    <h2></h2>
+                    
                 </div>
                 <div className="contactinfobody">
                         <div className="emailcontactbody">
@@ -44,10 +44,10 @@ class Contact extends Component {
                             <ul><Link to="/Contact"><img src={whatsAppLogo} alt=""/></Link><div className="whatsappontact">077895785400</div></ul>
                         </div> */}
                         <br></br>
-                        <div className="facebookcontactbody">
+                        {/* <div className="facebookcontactbody">
                             <Link onClick={openTab}><img src={facebook} alt="" /><div> Facebook Link </div></Link>
                             
-                        </div>
+                        </div> */}
                     </div>
             </div>
             </>

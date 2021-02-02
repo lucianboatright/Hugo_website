@@ -6,8 +6,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "bootstrap-4-grid": "^3.4.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-grid-system": "^7.1.1",
     "react-hover": "^2.0.0",
     "react-hover-animation": "^2.1.1",
     "react-image-gallery": "^1.0.8",
@@ -15,7 +17,8 @@
     "react-responsive-carousel": "^3.2.11",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-transition-group": "^4.4.1"
+    "react-transition-group": "^4.4.1",
+    "reactstrap": "^8.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
