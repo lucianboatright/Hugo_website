@@ -253,32 +253,31 @@ const Services = () => {
             <Container>
                 <Row>
                     <Col> </Col>
+                    <Col> </Col>
                     <Col> Prices</Col>
+                    <Col> </Col>
                     <Col> </Col>
                 </Row>
             </Container>
-            <div className="themed-container">
+            
             <Container >
                 <Row className="rows">
                     <Col md={6} debug>Price per hour <br></br> Standard work</Col>
                     <Col md={6} debug> £ x</Col>
-                    {/* <Col className="column" > Price per hour <br></br> Standard work</Col>
-                    <Col className="column"> £ X</Col> */}
                 </Row>
                 <Row>
-                    <Col> Price per hour <br></br> Specialist work</Col>
-                    <Col> £ Y</Col>
+                    <Col md={6} debug> Price per hour <br></br> Specialist work</Col>
+                    <Col md={6} debug> £ Y</Col>
                 </Row>
                 <Row>
-                    <Col> Weekly or Montly servises </Col>
-                    <Col> Prices on request </Col>
+                    <Col md={6} debug> Weekly or Montly servises </Col>
+                    <Col md={6} debug> Dicounted prices for regular work </Col>
                 </Row>
                 <Row>
-                    <Col> Custom Design </Col>
-                    <Col> We dont charge until work starts so feel free to call.  </Col>
+                    <Col md={6} debug> Custom Design </Col>
+                    <Col md={6} debug> We dont charge until work starts so feel free to call.  </Col>
                 </Row>
             </Container>
-            </div>
     
         </Col>
     </Row>
