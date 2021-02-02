@@ -205,7 +205,7 @@ const Services = () => {
    <>
    
     <Row>
-        <Col sm={4}>
+        <Col >
             <div className={service.designHeader}>
                 <h1>Design Options</h1>
             </div>
@@ -249,23 +249,11 @@ const Services = () => {
             </div>
         </Col>
 
-        <Col sm={4}>
-         
+        <Col >
+            <div>Images</div>
         </Col>
 
-
-        <Col sm={4}>
-            <Container>
-                <Row>
-                    <Col> </Col>
-                    <Col> </Col>
-                    <Col> Prices</Col>
-                    <Col> </Col>
-                    <Col> </Col>
-                </Row>
-            </Container>
-            
-            <Container >
+            {/* <Container >
                 <Row className="rows">
                     <Col md={6} debug>Price per hour <br></br> Standard work</Col>
                     <Col md={6} debug> £ x</Col>
@@ -283,11 +271,9 @@ const Services = () => {
                     <Col md={6} debug> We dont charge until work starts so feel free to call.  </Col>
                 </Row>
             </Container>
-    
-        </Col>
+     */}
     </Row>
     </>
-    
   )
 }
 export default Services
