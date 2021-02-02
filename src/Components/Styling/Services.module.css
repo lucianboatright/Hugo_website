@@ -24,7 +24,16 @@
     font-size: 20px;
 }
 
+.themed-container{
+    color: green;
+}
+.column {
+    color: green;
+}
 
+.rows {
+    background: red;
+}
 
 /* .services ul li a{
     color: rgb(223, 116, 87);

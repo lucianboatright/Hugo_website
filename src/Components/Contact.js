@@ -24,7 +24,7 @@ class Contact extends Component {
                     <h1>Contact Details</h1>
                     <br></br>
                     <h2>We would love to hear from you, please get in touch</h2>
-                    
+                    <h2>There are no costs for requests and enquiaries</h2>
                 </div>
                 <div className="contactinfobody">
                         <div className="emailcontactbody">

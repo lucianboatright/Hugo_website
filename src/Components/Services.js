@@ -2,8 +2,7 @@
 // // import ReactHover from 'react-hover';
 // // import { AnimationWrapper } from 'react-hover-animation'
 // import { useHover } from 'react-hover-animation'
-import { Container, Row, Col } from 'react-grid-system';
-import service from './Styling/Services.module.css'
+
 
 // const {spring, animated, setHover} = useHover ({
 //     color: {
@@ -165,10 +164,13 @@ import service from './Styling/Services.module.css'
 
 // export default Services;
 
+
+import { Container, Row, Col } from 'react-grid-system';
+import service from './Styling/Services.module.css'
 import React from 'react'
 import { useHover } from 'react-hover-animation'
 
-import { Visible, Hidden } from 'react-grid-system';
+// import { Visible, Hidden } from 'react-grid-system';
  
 const Services = () => {
   /* 
@@ -186,8 +188,9 @@ const Services = () => {
     animation config using an object 
     */
     animationConfig: {
-      duration: 500,
+      duration: 1000,
     },
+
     /* 
     animation config using a preset
     */
@@ -201,133 +204,84 @@ const Services = () => {
     */
    <>
    
-<Row>
-    <Col sm={4}>
-    <div className={service.designHeader}>
-       <h1>Design Options</h1>
-   </div>
-   <div className={service.designHeader}>
-       <h2>Custom Design</h2>
-   </div>
-   <div>
-        {/* <animated.h3
-        style={spring}
-        onPointerOver={() => {
-            setHover(false)
-        }}
-        onPointerOut={() => {
-            setHover(true)
-        }}
-        > */}
-            <ul className={service.designList}>
-                <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. <br></br>  Taking consideration multiple leves of maintince</li>
-                <li>Both Hard and Soft gardening skills </li>
-                <li>We have created a wide range of  </li>
-                <li>We will work with you or via a consultation to design gardens of all types </li>
-            </ul> 
-        {/* </animated.h3 > */}
-    </div>
-    <div className={service.designHeader}>
-        <h2>Maintain </h2>
-    </div>
-   <div>
-            <ul className={service.designList}>
-                <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. <br></br>Taking consideration multiple leves of maintince</li>
-                <li>Both Hard and Soft gardening skills </li>
-                <li>We have created a wide range of  </li>
-                <li>We will work with you or via a consultation to design gardens of all types </li>
-            </ul> 
-    </div>
-    <div className={service.designHeader}>
-        <h2>Install</h2>
-    </div>
-   <div>
-            <ul className={service.designList}>
-            <li>Hedge Trimming</li>
-                <li>Lawn Care, Seeding, Turfing or Mowning</li>
-                <li>Regular or seasonal specialist maintance</li>
-                <li>Herb gardens of vegtibals patches to fit in with the garden</li>
-            </ul> 
-    </div>
-    </Col>
-    <Col sm={4}>
-      One of three columns
-    </Col>
-    <Col sm={4}>
-            <Row>
-            <Col xs="auto">.col-auto - variable width content</Col>
-            </Row>
-        <Container>
-            <Row>
-                <Col> 1 of 1</Col>
-                <Col> 2 of 2</Col>
-            </Row>
-            <Row>
-                <Col> 1 of 1</Col>
-                <Col> 2 of 2</Col>
-            </Row>
-            <Row>
-                <Col> 1 of 1</Col>
-                <Col> 2 of 2</Col>
-            </Row>
-        </Container>
-  
-    </Col>
-  </Row>
-{/* 
-   <div className={service.designHeader}>
-       <h1>Design Options</h1>
-   </div>
-   <div className={service.designHeader}>
-       <h2>Custom Design</h2>
-   </div>
-   <div>
-        <ul className={service.designList}>
-            <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. <br></br>  Taking consideration multiple leves of maintince</li>
-            <li>Both Hard and Soft gardening skills </li>
-            <li>We have created a wide range of  </li>
-            <li>We will work with you or via a consultation to design gardens of all types </li>
-        </ul> 
- 
-    </div>
-    <div className={service.designHeader}>
-        <h2>Maintain </h2>
-    </div>
-   <div>
-        <ul className={service.designList}>
-            <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. <br></br>Taking consideration multiple leves of maintince</li>
-            <li>Both Hard and Soft gardening skills </li>
-            <li>We have created a wide range of  </li>
-            <li>We will work with you or via a consultation to design gardens of all types </li>
-        </ul> 
-    </div>
-    <div className={service.designHeader}>
-        <h2>Install</h2>
-    </div>
-   <div>
-            <ul className={service.designList}>
-            <li>Hedge Trimming</li>
-                <li>Lawn Care, Seeding, Turfing or Mowning</li>
-                <li>Regular or seasonal specialist maintance</li>
-                <li>Herb gardens of vegtibals patches to fit in with the garden</li>
-            </ul> 
-    </div> */}
-       {/* <div>
-       <animated.h1
-   
-       style={spring}
-    
-       onPointerOver={() => {
-           setHover(false)
-       }}
-       onPointerOut={() => {
-           setHover(true)
-       }}
-       >
-       I animate on hover
-       </animated.h1>
-   </div> */}
+    <Row>
+        <Col sm={4}>
+            <div className={service.designHeader}>
+                <h1>Design Options</h1>
+            </div>
+            <div className={service.designHeader}>
+                <h2>Custom Design</h2>
+            </div>
+            <div>
+                <ul className={service.designList}>
+                    <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. <br></br>  Taking consideration multiple leves of maintince</li>
+                    <li>Both Hard and Soft gardening skills </li>
+                    <li>We have created a wide range of  </li>
+                    <li>We will work with you or via a consultation to design gardens of all types </li>
+                </ul> 
+            </div>
+            <div className={service.designHeader}>
+                <h2>Maintain </h2>
+            </div>
+            <div>
+                <ul className={service.designList}>
+                    <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. <br></br>Taking consideration multiple leves of maintince</li>
+                    <li>Both Hard and Soft gardening skills </li>
+                    <li>We have created a wide range of  </li>
+                    <li>We will work with you or via a consultation to design gardens of all types </li>
+                </ul> 
+            </div>
+            <div className={service.designHeader}>
+                <h2>Install</h2>
+            </div>
+            <div>
+                <ul className={service.designList}>
+                <li>Hedge Trimming</li>
+                    <li>Lawn Care, Seeding, Turfing or Mowning</li>
+                    <li>Regular or seasonal specialist maintance</li>
+                    <li>Herb gardens of vegtibals patches to fit in with the garden</li>
+                </ul> 
+            </div>
+        </Col>
 
+        <Col sm={4}>
+         
+        </Col>
+
+
+        <Col sm={4}>
+            <Container>
+                <Row>
+                    <Col> </Col>
+                    <Col> Prices</Col>
+                    <Col> </Col>
+                </Row>
+            </Container>
+            <div className="themed-container">
+            <Container >
+                <Row className="rows">
+                    <Col md={6} debug>Price per hour <br></br> Standard work</Col>
+                    <Col md={6} debug> £ x</Col>
+                    {/* <Col className="column" > Price per hour <br></br> Standard work</Col>
+                    <Col className="column"> £ X</Col> */}
+                </Row>
+                <Row>
+                    <Col> Price per hour <br></br> Specialist work</Col>
+                    <Col> £ Y</Col>
+                </Row>
+                <Row>
+                    <Col> Weekly or Montly servises </Col>
+                    <Col> Prices on request </Col>
+                </Row>
+                <Row>
+                    <Col> Custom Design </Col>
+                    <Col> We dont charge until work starts so feel free to call.  </Col>
+                </Row>
+            </Container>
+            </div>
+    
+        </Col>
+    </Row>
     </>
     
   )
