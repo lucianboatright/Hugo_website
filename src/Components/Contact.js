@@ -44,10 +44,10 @@ class Contact extends Component {
                             <ul><Link to="/Contact"><img src={whatsAppLogo} alt=""/></Link><div className="whatsappontact">077895785400</div></ul>
                         </div> */}
                         <br></br>
-                        {/* <div className="facebookcontactbody">
-                            <Link onClick={openTab}><img src={facebook} alt="" /><div> Facebook Link </div></Link>
+                        <div className="facebookcontactbody">
+                            <Link onClick={openTab}><img src={facebook} alt="" /><div> HGBDNS - Facebook </div></Link>
                             
-                        </div> */}
+                        </div>
                     </div>
             </div>
             </>

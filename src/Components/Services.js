@@ -240,6 +240,11 @@ const Services = () => {
                     <li>Lawn Care, Seeding, Turfing or Mowning</li>
                     <li>Regular or seasonal specialist maintance</li>
                     <li>Herb gardens of vegtibals patches to fit in with the garden</li>
+                    <div>Hard Instalations</div>
+                    <ul>
+                        <li>Patios</li>
+                        <li>Herb gardens of vegtibals patches to fit in with the garden</li>
+                    </ul>
                 </ul> 
             </div>
         </Col>
