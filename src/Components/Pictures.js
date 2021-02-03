@@ -5,36 +5,32 @@ import React, { Component } from 'react';
 
 // import React from "react";
 import ReactDOM from "react-dom";
-import Carousel from "react-elastic-carousel";
+import Carousel, { consts } from "react-elastic-carousel";
 import Item from "./Item";
-import './Styling/Pictures.module.css'
+import  './Styling/Pictures.module.css'
+
+import image1 from './img/IMG-20201214-WA0000(1)_copy.jpg'
 // import "./styles.css";
+
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
   { width: 768, itemsToShow: 3 },
-  { width: 1200, itemsToShow: 4 }
+//   { width: 1200, itemsToShow: 4 }
 ];
 
 
 
-
-// import image1 from './ImageGallery/IMG-20201214-WA0000(1).jpg'
-
-
-
-
 class Pictures extends Component {
-  
 
      render() {
          return (
             <div className="App">
-                <Carousel breakPoints={breakPoints}>
-                <Item>1</Item>
-                <Item>2</Item>
-                <Item>3</Item>
+                <Carousel className="styling-example" breakPoints={breakPoints}>
+                <Item> <Link  to="/Contact" >  Alderney Project<img src={image1} alt=""/> </Link></Item>
+                <Item>Bristol House</Item>
+                <Item>London House</Item>
                 <Item>4</Item>
                 <Item>5</Item>
                 <Item>6</Item>
