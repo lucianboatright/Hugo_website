@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Redirect } from "react-router";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -7,6 +8,10 @@ import  './Styling/Pictures.module.css'
 
 import image1 from './img/IMG-20201214-WA0000(1)_copy.jpg'
 import image2 from './img/vertical-pallet-garden-grey-wall-lawn-creative-diy-succulents-decoration_copy.jpg'
+import image3 from './img/6597098_orig_copy.jpg'
+import image4 from './img/shale01garden.jpg'
+import image5 from './img/roundgarden_1.jpg'
+
 // import "./styles.css";
 
 
@@ -29,7 +34,22 @@ const responsive = {
       items: 1
     }
   };
+
+
 class Pictures extends Component {
+    state = {
+        redirect: false
+        }
+        redirectHandler = () => {
+            this.setState({ redirect: true })
+            this.renderRedirect();
+        }
+        renderRedirect = () => {
+            if (this.state.redirect) {
+                return <Redirect to='/Contacts' />
+            }
+    }
+
 
      render() {
          return (
@@ -39,7 +59,7 @@ class Pictures extends Component {
                     draggable={false}
                     showDots={true}
                     responsive={responsive}
-                    ssr={true} // means to render carousel on server-side.
+                    ssr={false} // means to render carousel on server-side.
                     infinite={true}
                     autoPlay={this.props.deviceType !== "mobile" ? true : false}
                     autoPlaySpeed={100000}
@@ -52,11 +72,12 @@ class Pictures extends Component {
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
                     >
-                    <div><img src={image1} /></div>
-                    <div><img src={image2} /></div>
-                    <div>Item 2</div>
-                    <div>Item 3</div>
-                    <div>Item 4</div>
+                    <Link to='/Contacts'><div style={{ border: '2px solid black'}}><img src={image1} style={{width:'400px', height:'350px'}} /></div></Link>
+                    {/* <div style={{ border: '2px solid black'}}>2</div> */}
+                    <div style={{ border: '2px solid black'}}><img src={image2} style={{width:'100%', height:'100%'}} /></div>
+                    <div style={{ border: '2px solid black'}}><img src={image3} style={{width:'100%', height:'100%'}} /></div>
+                    <div style={{ border: '2px solid black'}}><img src={image4} style={{width:'100%', height:'100%'}} /></div>
+                    <div style={{ border: '2px solid black'}}><img src={image5} style={{width:'100%', height:'100%'}} /></div>
                 </Carousel>
             </div>
          )
