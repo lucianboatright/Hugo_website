@@ -73,12 +73,11 @@ class Pictures extends Component {
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
                     >
-                    <div style={{ border: '2px solid black'}}><Link to='/Contacts'><img src={image1} style={{width:'400px', height:'350px'}} /></Link></div>
-                    {/* <div style={{ border: '2px solid black'}}>2</div> */}
-                    <div style={{ border: '2px solid black'}}><img src={image2} style={{width:'100%', height:'100%'}} /></div>
-                    <div style={{ border: '2px solid black'}}><img src={image3} style={{width:'100%', height:'100%'}} /></div>
-                    <div style={{ border: '2px solid black'}}><img src={image4} style={{width:'100%', height:'100%'}} /></div>
-                    <div style={{ border: '2px solid black'}}><img src={image5} style={{width:'100%', height:'100%'}} /></div>
+                    <div style={{ border: '2px solid black'}}><Link to='/AlderneyGarden'><img src={image1} style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
+                    <div style={{ border: '2px solid black'}}><Link to='/WallGarden'><img src={image2} style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
+                    <div style={{ border: '2px solid black'}}><Link to='/PaletGarden'><img src={image3} style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
+                    <div style={{ border: '2px solid black'}}><Link to='/ShaleGarden'><img src={image4} style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
+                    <div style={{ border: '2px solid black'}}><Link to='/LawnGarden'><img src={image5} style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
                 </Carousel>
             </div>
          )
