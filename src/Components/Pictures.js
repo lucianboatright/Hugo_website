@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from "react-router";
+import { Link } from 'react-router-dom';
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -72,7 +73,7 @@ class Pictures extends Component {
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
                     >
-                    <Link to='/Contacts'><div style={{ border: '2px solid black'}}><img src={image1} style={{width:'400px', height:'350px'}} /></div></Link>
+                    <div style={{ border: '2px solid black'}}><Link to='/Contacts'><img src={image1} style={{width:'400px', height:'350px'}} /></Link></div>
                     {/* <div style={{ border: '2px solid black'}}>2</div> */}
                     <div style={{ border: '2px solid black'}}><img src={image2} style={{width:'100%', height:'100%'}} /></div>
                     <div style={{ border: '2px solid black'}}><img src={image3} style={{width:'100%', height:'100%'}} /></div>
