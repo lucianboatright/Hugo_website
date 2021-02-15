@@ -5,6 +5,10 @@ import "react-multi-carousel/lib/styles.css";
 import image1 from './img/IMG-20201214-WA0000(1)_copy.jpg'
 import image2 from './img/IMG-20201214-WA0005(1)_copy.jpg'
 import image3 from './img/IMG-20210105-WA0007(1)_copy.jpg'
+import image4 from './img/IMG-20210129-WA0000.jpg'
+import image5 from './img/IMG-20210129-WA0001.jpg'
+import image6 from './img/IMG-20210129-WA0002.jpg'
+import image7 from './img/IMG-20210129-WA0003.jpg'
 
 
 
@@ -44,16 +48,20 @@ class AlderneyGarden extends Component {
                 autoPlaySpeed={3000}
                 keyBoardControl={true}
                 customTransition="all .5"
-                transitionDuration={500}
+                transitionDuration={1000}
                 containerClass="carousel-container"
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
             >
-                <div><img src={image1} style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image2} style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image3} style={{width:'400px', height:'350px'}} /></div>
+                <div><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /></div>
+                <div><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /></div>
+                <div><img src={image3} alt=""  style={{width:'400px', height:'350px'}} /></div>
+                <div><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /></div>
+                <div><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /></div>
+                <div><img src={image6} alt=""  style={{width:'400px', height:'350px'}} /></div>
+                <div><img src={image7} alt=""  style={{width:'400px', height:'350px'}} /></div>
         </Carousel>
         );
     };

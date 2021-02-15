@@ -165,10 +165,9 @@
 // export default Services;
 
 
-import { Container, Row, Col } from 'react-grid-system';
+import { Row, Col } from 'react-grid-system';
 import service from './Styling/Services.module.css'
 import React from 'react'
-import { useHover } from 'react-hover-animation'
 
 // import { Visible, Hidden } from 'react-grid-system';
  
@@ -176,28 +175,7 @@ const Services = () => {
   /* 
     first call the hook
   */
-  const { spring, animated, setHover } = useHover({
-    /* 
-    optional styles...
-    */
-    color: {
-      initial: 'rgb(43, 85, 79)',
-      onHover: 'rgb(223, 116, 87)',
-    },
-    /* 
-    animation config using an object 
-    */
-    animationConfig: {
-      duration: 1000,
-    },
 
-    /* 
-    animation config using a preset
-    */
-    /* 
-    animationConfig: 'molasses',
-    */
-  })
   return (
     /* 
     add 'animated' to the element
