@@ -15,27 +15,31 @@ class About extends Component {
             <div className={about.about_container}>
                 <div className={about.about_body}>
                     <br></br>
-                    <h1>We are a Bristol based gardening and landscaping company,</h1>
-                    <h1>Our mission is to create and maintain high quality gardens.</h1>
+                    <h1>We are a Bristol based gardening and landscape company,</h1>
+                    <h1>Our mission is to create and maintain beautiful and valued gardens</h1>
                     <br></br>
                     <h2>We cover all of Bristol, Gloucestershire and Somerset and areas surrounding. </h2>
                     <h3>HB Design is Qualified by the Royal Horticultural Society and a Registered gardener at the Chartered Insititute of Horticilture</h3>
                     <br></br>
                 </div>
-                <div className={about.motto}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
+                <div className={about.motto}><h1>DESIGN / MAINTAIN / INSTALL</h1></div>
                     <br></br>
                 <div className={about.about_body}>
                     {/* <h2>We cover all of Gloucestershire and Somerset and areas surrounding </h2> */}
-                    <h2> HB Designers offer a range of services both costom and general. </h2>
+                    <h2> We offer a wide range of services </h2>
+                    <h2> Based in Bristol but covering all of Gloucestershire and Somerset.</h2>
+                  
                     <br></br>
                     {/* <h3>We have an expereinced team to build and maintian gardens of all types and sizes</h3>
                     <h3>Our Team is expereinces in working on gardens at all times of the year, weather you are looking to redesign your garden in winter, </h3>
                     <h3>plant in spring or maintian throughout the summer.</h3> */}
-                    <h3>We have experince designing a wide range of gardens from wild medows, vegitable gardens too more formal designs. </h3>
+                    <h3>We focus our work on quality and the enhancement of the garden </h3>
+                    <h3>Managing and carry out care for a garden to help it to develop and thrive. </h3>
                     {/* <h3>or more regimented gardens with pools, fountains and patios</h3> */}
-                    <h3>Weather your garden is small or large we are always happy making your garden a place you relish spending time in.</h3>
+                    <h3>All our work is realised with the long-term as well as short-term perspective in mind, producing a high quality finish. </h3>
                     <br></br>
-                    <h2>We are fully tooled and have expereince renting and using heavy machinery as well.</h2>
+                    <h3>We are fully tooled and have expereince renting and using heavy machinery as well.</h3>
+                    <h3>Whether you garden is large or small, formal or informal we are always happy to make it a special and loved space.</h3>
                     <br></br>
                     {/* <h3>Working in scheduled sessions we are able to give seasonal and timely care to the garden and plants, keeping it looking it's best.</h3>
                     <h3>Depending on the season that may be pruning, lawn care and top dressing borders with chippings or mulch.</h3>
