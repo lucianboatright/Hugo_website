@@ -168,6 +168,7 @@
 import { Row, Col } from 'react-grid-system';
 import service from './Styling/Services.module.css'
 import React from 'react'
+import Install from './Services_Install'
 
 // import { Visible, Hidden } from 'react-grid-system';
  
@@ -181,76 +182,12 @@ const Services = () => {
     add 'animated' to the element
     */
    <>
+    <Install className="install_box" > 
+
+    </Install>
    
-    <Row>
-        <Col >
-            <div className={service.designHeader}>
-                <h1>Design Options</h1>
-            </div>
-            <div className={service.designHeader}>
-                <h2>Custom Design</h2>
-            </div>
-            <div>
-                <ul className={service.designList}>
-                    <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. <br></br>  Taking consideration multiple leves of maintince</li>
-                    <li>Both Hard and Soft gardening skills </li>
-                    <li>We have created a wide range of  </li>
-                    <li>We will work with you or via a consultation to design gardens of all types </li>
-                </ul> 
-            </div>
-            <div className={service.designHeader}>
-                <h2>Maintain </h2>
-            </div>
-            <div>
-                <ul className={service.designList}>
-                    <li>We are happy to work with you to design a garden using our knowalge to help best design the garden for your use long term. <br></br>Taking consideration multiple leves of maintince</li>
-                    <li>Both Hard and Soft gardening skills </li>
-                    <li>We have created a wide range of  </li>
-                    <li>We will work with you or via a consultation to design gardens of all types </li>
-                </ul> 
-            </div>
-            <div className={service.designHeader}>
-                <h2>Install</h2>
-            </div>
-            <div>
-                <ul className={service.designList}>
-                <li>Hedge Trimming</li>
-                    <li>Lawn Care, Seeding, Turfing or Mowning</li>
-                    <li>Regular or seasonal specialist maintance</li>
-                    <li>Herb gardens of vegtibals patches to fit in with the garden</li>
-                    <div>Hard Instalations</div>
-                    <ul>
-                        <li>Patios</li>
-                        <li>Herb gardens of vegtibals patches to fit in with the garden</li>
-                    </ul>
-                </ul> 
-            </div>
-        </Col>
+   
 
-        <Col >
-            <div>Images</div>
-        </Col>
-
-            {/* <Container >
-                <Row className="rows">
-                    <Col md={6} debug>Price per hour <br></br> Standard work</Col>
-                    <Col md={6} debug> £ x</Col>
-                </Row>
-                <Row>
-                    <Col md={6} debug> Price per hour <br></br> Specialist work</Col>
-                    <Col md={6} debug> £ Y</Col>
-                </Row>
-                <Row>
-                    <Col md={6} debug> Weekly or Montly servises </Col>
-                    <Col md={6} debug> Dicounted prices for regular work </Col>
-                </Row>
-                <Row>
-                    <Col md={6} debug> Custom Design </Col>
-                    <Col md={6} debug> We dont charge until work starts so feel free to call.  </Col>
-                </Row>
-            </Container>
-     */}
-    </Row>
     </>
   )
 }
