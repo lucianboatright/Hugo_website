@@ -169,6 +169,7 @@ import { Row, Col } from 'react-grid-system';
 import service from './Styling/Services.module.css'
 import React from 'react'
 import Install from './Services_Install'
+import Maintaining from './Services_Maintain'
 
 // import { Visible, Hidden } from 'react-grid-system';
  
@@ -185,6 +186,10 @@ const Services = () => {
     <Install className="install_box" > 
 
     </Install>
+    <Maintaining className="install_box" > 
+
+    </Maintaining>
+
    
    
 
