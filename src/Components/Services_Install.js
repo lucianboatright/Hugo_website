@@ -71,36 +71,36 @@ export default function ComplexGrid() {
             <Grid item xs container direction="column" spacing={1}>
               <Grid item xs>
                 <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
-                     <div> Fencing</div>
+                     <div style={{color:'rgb(77, 136, 128)'}}> Fencing</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                <li>We can construct fences in traditional feather edge style or fabricate fences in more contemporary forms.</li>
+                 <div style={{color:'rgb(77, 136, 128)'}}>We can construct fences in traditional feather edge style or fabricate fences in more contemporary forms.</div>
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
-                     <div> Patios</div>
+                     <div style={{color:'rgb(77, 136, 128)'}}> Patios</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                    <li>Using natural stone or pre-formed concrete.</li>
+                    <div style={{color:'rgb(77, 136, 128)'}}>Using natural stone or pre-formed concrete.</div>
+                </Typography>
+                <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128)'}}>
+                     <div style={{color:'rgb(77, 136, 128)'}} > Ponds</div>
+                </Typography>
+                <Typography variant="body2" gutterBottom>
+                 <div style={{color:'rgb(77, 136, 128)'}} > Water features can add further interest in the garden and be great for wildlife.</div>
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
-                     <div> Ponds</div>
+                    <div style={{color:'rgb(77, 136, 128)'}}>Soft Landscaping</div> 
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                 <li>Water features can add further interest in the garden and be great for wildlife.</li>
-                </Typography>
-                <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
-                     Soft Landscaping
-                </Typography>
-                <Typography variant="body2" gutterBottom>
-                Variety of different “soft” practices: turfing, meadow creation, planting of schemes, specimen and hedge. (domestic and commercial)
+                 <div style={{color:'rgb(77, 136, 128)'}}>Variety of different “soft” practices: turfing, meadow creation, planting of schemes, specimen and hedge. (domestic and commercial)</div>
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
-                  <Link className={classes.contact_link} to="/Contact" > Contacts</Link>
+                  <Link className={classes.contact_link} to="/Contact" > <div style={{textDecoration: 'none'}}>Contacts</div></Link>
                 </Typography>
               </Grid>
             </Grid>
             <Grid item>
-              <Typography variant="subtitle1" style={{color:'rgb(213,117,86)'}} >INSTALL</Typography>
+              <Typography variant="subtitle1" style={{color: 'rgb(223, 116, 87)'}} >INSTALL</Typography>
             </Grid>
           </Grid>
         </Grid>
