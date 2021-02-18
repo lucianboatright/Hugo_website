@@ -55,6 +55,12 @@ class Pictures extends Component {
      render() {
          return (
             <div className="App">
+              <div
+                  style={{
+                    paddingBottom: '30px',
+                    position: 'relative'
+                  }}
+                >
                 <Carousel
                     swipeable={false}
                     draggable={false}
@@ -72,6 +78,7 @@ class Pictures extends Component {
                     deviceType={this.props.deviceType}
                     dotListClass="custom-dot-list-style"
                     itemClass="carousel-item-padding-40-px"
+                    renderDotsOutside="renderButtonGroupOutside"
                     >
                     <div style={{ border: '2px solid black'}}><Link to='/AlderneyGarden'><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
                     <div style={{ border: '2px solid black'}}><Link to='/WallGarden'><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
@@ -79,6 +86,7 @@ class Pictures extends Component {
                     <div style={{ border: '2px solid black'}}><Link to='/ShaleGarden'><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
                     <div style={{ border: '2px solid black'}}><Link to='/LawnGarden'><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
                 </Carousel>
+                </div>
             </div>
          )
      }
