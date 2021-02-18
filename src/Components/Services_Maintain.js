@@ -17,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
   },
   paper: {
     padding: theme.spacing(2),
-    textAlign: 'right',
     margin: 'auto',
     maxWidth: 1000,
   },
@@ -29,8 +28,10 @@ const useStyles = makeStyles((theme) => ({
   img: {
     // marginTop: '300px',
     position: 'relative',
-    top: '120px',
-   padding: '5px',
+    top: '180px',
+    paddingTop: '20px',
+    paddingBottom: '20px',
+    padding: '5px',
     maxWidth: '100%',
     maxHeight: '100%',
   },
@@ -44,17 +45,20 @@ const useStyles = makeStyles((theme) => ({
   },
   text_title: {
     // border: '1px solid black',
-    padding: '10px',
+    float: 'right',
+    paddingTop: '10px',
+    paddingBottom: '10px',
     width: '400px',
     height: '10px',
-    textAlign: 'justify',
+    textAlign: 'right',
     verticalAlign: 'middle',
     color:'rgb(77, 136, 128)',
   },
   text_lines: {
     // border: '1px solid black',
-    // paddingTop: '10px',
+    paddingTop: '10px',
     // marginTop: '10px',
+    float: 'right',
     width: '500px',
     height: 'auto',
     textAlign: 'justify',
@@ -106,9 +110,9 @@ export default function ComplexGrid() {
                     We would be happy to discuss your specific garden needs individually.
                     Call or email Hugo to book an appointment .</div> 
                 </Typography>
-                <Typography variant="body2" color="textSecondary">
+                {/* <Typography variant="body2" color="textSecondary">
                   <Link className={classes.contact_link} to="/Contact" > Contacts</Link>
-                </Typography>
+                </Typography> */}
               </Grid>
             </Grid>
           </Grid>
