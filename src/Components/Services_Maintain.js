@@ -42,8 +42,23 @@ const useStyles = makeStyles((theme) => ({
   contact_link: {
     textDecoration: 'none',
   },
-  subtitle1: {
-
+  text_title: {
+    // border: '1px solid black',
+    padding: '10px',
+    width: '400px',
+    height: '10px',
+    textAlign: 'justify',
+    verticalAlign: 'middle',
+    color:'rgb(77, 136, 128)',
+  },
+  text_lines: {
+    // border: '1px solid black',
+    // paddingTop: '10px',
+    // marginTop: '10px',
+    width: '500px',
+    height: 'auto',
+    textAlign: 'justify',
+    color:'rgb(77, 136, 128)',
   }
 }));
 
@@ -56,40 +71,40 @@ export default function ComplexGrid() {
         <Grid  container spacing={2}>
           <Grid item>
           <Grid item>
-              <Typography variant="subtitle1" style={{color:'rgb(213,117,86)'}} >MAINTAIN</Typography>
+              <Typography style={{color:'rgb(213,117,86)'}} > <h2>MAINTAIN</h2></Typography>
             </Grid>
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={1}>
               <Grid item xs >
-                <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
-                     <div> Lawn Mowing & Treatment</div>
+                <Typography gutterBottom variant="subtitle1" >
+                     <div className={classes.text_title} > Lawn Mowing & Treatment</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                <li>Regular visits during the growing season also seasonal treatments to keep your grass in good condition.</li>
+                 <div className={classes.text_lines} >Regular visits during the growing season also seasonal treatments to keep your grass in good condition.</div>
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" >
-                     <div style={{color:'rgb(77, 136, 128))'}}> Hedge Trimming</div>
+                     <div className={classes.text_title} > Hedge Trimming</div>
                 </Typography>
-                <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
-                     <div> Planting</div>
-                </Typography>
-                <Typography variant="body2" gutterBottom>
-                    <li>We are able to source plant required and suggest suitable schemes for your garden.</li>
-                </Typography>
-                <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
-                     <div> Prunning</div>
+                <Typography gutterBottom variant="subtitle1" >
+                     <div className={classes.text_title}> Planting</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                 <li>Seasonal rose, fruit tree and shrub cutting carried out at the right time, best for the plant.</li>
+                    <div className={classes.text_lines}>We are able to source plant required and suggest suitable schemes for your garden.</div>
                 </Typography>
-                <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
-                     General Maintenance
+                <Typography gutterBottom variant="subtitle1" >
+                     <div className={classes.text_title}> Prunning</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                    We can come for regular scheduled visits during the year or one off. Depending on the time of year the tasks may be pruning, feeding and weeding or top dressing and general tidying.
+                 <div className={classes.text_lines}>Seasonal rose, fruit tree and shrub cutting carried out at the right time, best for the plant.</div>
+                </Typography>
+                <Typography gutterBottom variant="subtitle1" >
+                     <div className={classes.text_title}>General Maintenance</div>
+                </Typography>
+                <Typography variant="body2" gutterBottom>
+                   <div className={classes.text_lines}>We can come for regular scheduled visits during the year or one off. Depending on the time of year the tasks may be pruning, feeding and weeding or top dressing and general tidying.
                     We would be happy to discuss your specific garden needs individually.
-                    Call or email Hugo to book an appointment .
+                    Call or email Hugo to book an appointment .</div> 
                 </Typography>
                 <Typography variant="body2" color="textSecondary">
                   <Link className={classes.contact_link} to="/Contact" > Contacts</Link>

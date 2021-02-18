@@ -88,7 +88,7 @@ export default function ComplexGrid() {
                 <Typography variant="body2" gutterBottom>
                  <div style={{color:'rgb(77, 136, 128)'}} > Water features can add further interest in the garden and be great for wildlife.</div>
                 </Typography>
-                <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128))'}}>
+                <Typography gutterBottom variant="subtitle1" style={{color:'rgb(77, 136, 128)'}}>
                     <div style={{color:'rgb(77, 136, 128)'}}>Soft Landscaping</div> 
                 </Typography>
                 <Typography variant="body2" gutterBottom>
@@ -100,7 +100,7 @@ export default function ComplexGrid() {
               </Grid>
             </Grid>
             <Grid item>
-              <Typography variant="subtitle1" style={{color: 'rgb(223, 116, 87)'}} >INSTALL</Typography>
+              <Typography variant="subtitle1" style={{color: 'rgb(223, 116, 87)'}} > <h2>INSTALL</h2></Typography>
             </Grid>
           </Grid>
         </Grid>
