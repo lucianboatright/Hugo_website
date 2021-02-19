@@ -94,3 +94,6 @@ class Pictures extends Component {
       
 
 export default Pictures;
+
+
+

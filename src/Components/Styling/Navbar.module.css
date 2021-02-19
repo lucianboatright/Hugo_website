@@ -43,8 +43,8 @@
 .contactinfo a:hover {
     position: relative;
     /* margin-left: 200px; */
-    transition: 1s ease;
-    padding-left: 50px;
+    transition: 1.5s ease;
+    padding-left: 30px;
     background: rgb(77, 136, 128);
     cursor: pointer;
     border-radius: 5px;
@@ -61,9 +61,9 @@
     color: 'red';
 }
 .emailcontact  img:hover{
-    width: 20px;
-    transition: 1s ease;
-    padding-left: 10px
+    /* width: 20px; */
+    /* transition: 1s ease;
+    padding-left: 10px */
 }
 
 
@@ -73,11 +73,11 @@
 .contactPhone {
     margin-left: 10px;
 }
-.phonecontact  img:hover{
+/* .phonecontact  img:hover{
     width: 20px;
     transition: 1s ease;
     padding-left: 10px
-}
+} */
 /* navbar items  */
 .bar{
     width: 30px;

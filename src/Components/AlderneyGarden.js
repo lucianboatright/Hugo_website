@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import { makeStyles } from '@material-ui/core/styles';
+
+import alderneyStyle from "./Styling/AlderneyGarden.module.css"
+
 import image1 from './img/IMG-20201214-WA0000(1)_copy.jpg'
 import image2 from './img/IMG-20201214-WA0005(1)_copy.jpg'
 import image3 from './img/IMG-20210105-WA0007(1)_copy.jpg'
@@ -11,7 +15,16 @@ import image6 from './img/IMG-20210129-WA0002.jpg'
 import image7 from './img/IMG-20210129-WA0003.jpg'
 
 
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  description: {
+    
+    margin: 'auto',
+  },
 
+}));
 
 const responsive = {
   desktop: {
@@ -37,6 +50,11 @@ const responsive = {
 class AlderneyGarden extends Component {
      render() {   
     return (
+          <div         
+            style={{
+              paddingBottom: '30px',
+              position: 'relative'
+              }} >
             <Carousel
                 swipeable={false}
                 draggable={false}
@@ -54,6 +72,7 @@ class AlderneyGarden extends Component {
                 deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
+                renderDotsOutside="renderButtonGroupOutside"
             >
                 <div><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /></div>
                 <div><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /></div>
@@ -63,6 +82,16 @@ class AlderneyGarden extends Component {
                 <div><img src={image6} alt=""  style={{width:'400px', height:'350px'}} /></div>
                 <div><img src={image7} alt=""  style={{width:'400px', height:'350px'}} /></div>
         </Carousel>
+        <div className={alderneyStyle.description}>This garden was a great oppertunity for me to design and build for a client who wanted a complete change. 
+          The garden is a family garden though it is mainly designed around the parents who live there.
+          As you can see from the images the garden had a lot of untamed growth leading to a lot of lost space. 
+          There was a drive to keep and imporve certain parts of the garden like the herb bed and the area at the end of the 
+          garden for relaxing and socialising. I also had the oppertunity to install pond to help suport wildlife and a fire pit for evening entertainment.  </div>
+
+
+        </div>
+        
+        
         );
     };
 }

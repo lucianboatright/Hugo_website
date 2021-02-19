@@ -37,6 +37,10 @@ const responsive = {
 class WallGarden extends Component {
      render() {   
     return (
+          <div         style={{
+            paddingBottom: '30px',
+            position: 'relative'
+          }} >
             <Carousel
                 swipeable={false}
                 draggable={false}
@@ -54,6 +58,7 @@ class WallGarden extends Component {
                 deviceType={this.props.deviceType}
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
+                renderDotsOutside="renderButtonGroupOutside"
             >
                 <div><img src={image1} alt="" style={{width:'400px', height:'350px'}} /></div>
                 <div><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /></div>
@@ -63,6 +68,7 @@ class WallGarden extends Component {
                 <div><img src={image6} alt=""  style={{width:'400px', height:'350px'}} /></div>
                 <div><img src={image7} alt=""  style={{width:'400px', height:'350px'}} /></div>
         </Carousel>
+        </div>
         );
     };
 }
