@@ -7,6 +7,8 @@ import 'react-multi-carousel/lib/styles.css';
 
 import  './Styling/Pictures.module.css'
 
+import { Button, Card, CardBody, CardGroup, Col, Container, Input, InputGroup, InputGroupAddon, InputGroupText, Row, NavLink  } from 'reactstrap';
+
 import image1 from './img/IMG-20201214-WA0000(1)_copy.jpg'
 import image2 from './img/vertical-pallet-garden-grey-wall-lawn-creative-diy-succulents-decoration_copy.jpg'
 import image3 from './img/6597098_orig_copy.jpg'
@@ -80,11 +82,11 @@ class Pictures extends Component {
                     itemClass="carousel-item-padding-40-px"
                     renderDotsOutside="renderButtonGroupOutside"
                     >
-                    <div style={{ border: '2px solid black'}}><Link to='/AlderneyGarden'><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
-                    <div style={{ border: '2px solid black'}}><Link to='/WallGarden'><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
-                    <div style={{ border: '2px solid black'}}><Link to='/PaletGarden'><img src={image3} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
-                    <div style={{ border: '2px solid black'}}><Link to='/ShaleGarden'><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
-                    <div style={{ border: '2px solid black'}}><Link to='/LawnGarden'><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div className="imageButton">Click for more information</div></Link></div>
+                    <div ><Link to='/AlderneyGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Alderney Project <br></br> More Information </div></Link></div>
+                    <div ><Link to='/WallGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Garden Instilations <br></br> More Information</div></Link></div>
+                    <div ><Link to='/PaletGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image3} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Herb and Vegtable beds <br></br> More Information</div></Link></div>
+                    <div ><Link to='/ShaleGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Stone gardens <br></br>More Information</div></Link></div>
+                    <div ><Link to='/LawnGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Mown Lawns and Hedge Trimming <br></br>More Information</div></Link></div>
                 </Carousel>
                 </div>
             </div>

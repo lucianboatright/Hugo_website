@@ -8,3 +8,7 @@
     height: 100vh;
 };
 
+.imageButton {
+    text-decoration: "none";
+    color: red;
+}

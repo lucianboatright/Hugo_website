@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
     height: '10px',
     textAlign: 'justify',
     verticalAlign: 'middle',
-    color:'rgb(77, 136, 128)',
+    color:'rgb(28, 70, 54)',
   },
   text_lines: {
     // border: '1px solid black',
@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme) => ({
     width: '500px',
     height: 'auto',
     textAlign: 'justify',
-    color:'rgb(77, 136, 128)',
+    color:'rgb(28, 70, 54)',
   }
 }));
 

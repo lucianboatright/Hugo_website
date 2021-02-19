@@ -8,7 +8,8 @@ body, html {
 
 .about_body {
     text-align: center;
-    color: rgb(80,136,128);
+    color: rgb(28, 70, 54);
+    /* color: rgb(80,136,128); */
     
 }
 .motto {
@@ -23,7 +24,7 @@ body, html {
     width: 500px;
     height: 200px;
     border: 1px solid rgb(82, 135, 65);
-    color: rgb(82, 135, 65);
+    color: rgb(28, 70, 54);
     
 }
 

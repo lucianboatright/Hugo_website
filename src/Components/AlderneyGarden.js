@@ -15,17 +15,6 @@ import image6 from './img/IMG-20210129-WA0002.jpg'
 import image7 from './img/IMG-20210129-WA0003.jpg'
 
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  description: {
-    
-    margin: 'auto',
-  },
-
-}));
-
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -52,9 +41,10 @@ class AlderneyGarden extends Component {
     return (
           <div         
             style={{
-              paddingBottom: '30px',
-              position: 'relative'
+              // paddingBottom: '30px',
+              // position: 'relative'
               }} >
+            <div>
             <Carousel
                 swipeable={false}
                 draggable={false}
@@ -73,15 +63,18 @@ class AlderneyGarden extends Component {
                 dotListClass="custom-dot-list-style"
                 itemClass="carousel-item-padding-40-px"
                 renderDotsOutside="renderButtonGroupOutside"
+                
+                centerMode={true}
             >
-                <div><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image3} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image6} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image7} alt=""  style={{width:'400px', height:'350px'}} /></div>
+                <div><img src={image1} alt=""  style={{width:'auto', height:'350px'}} /></div>
+                <div><img src={image2} alt=""  style={{width:'auto', height:'350px'}} /></div>
+                <div><img src={image3} alt=""  style={{width:'auto', height:'350px'}} /></div>
+                <div><img src={image4} alt=""  style={{width:'auto', height:'350px'}} /></div>
+                <div><img src={image5} alt=""  style={{width:'auto', height:'350px'}} /></div>
+                <div><img src={image6} alt=""  style={{width:'auto', height:'350px'}} /></div>
+                <div><img src={image7} alt=""  style={{width:'auto', height:'350px'}} /></div>
         </Carousel>
+        </div>
         <div className={alderneyStyle.description}>This garden was a great oppertunity for me to design and build for a client who wanted a complete change. 
           The garden is a family garden though it is mainly designed around the parents who live there.
           As you can see from the images the garden had a lot of untamed growth leading to a lot of lost space. 

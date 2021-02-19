@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
     height: '10px',
     textAlign: 'right',
     verticalAlign: 'middle',
-    color:'rgb(77, 136, 128)',
+    color:'rgb(28, 70, 54)',
   },
   text_lines: {
     // border: '1px solid black',
@@ -62,7 +62,7 @@ const useStyles = makeStyles((theme) => ({
     width: '500px',
     height: 'auto',
     textAlign: 'justify',
-    color:'rgb(77, 136, 128)',
+    color:'rgb(28, 70, 54)',
   }
 }));
 
@@ -75,7 +75,7 @@ export default function ComplexGrid() {
         <Grid  container spacing={2}>
           <Grid item>
           <Grid item>
-              <Typography style={{color:'rgb(213,117,86)'}} > <h2>MAINTAIN</h2></Typography>
+              <Typography style={{color:'rgb(223, 116, 87)'}} > <h2>MAINTAIN</h2></Typography>
             </Grid>
           </Grid>
           <Grid item xs={12} sm container>
