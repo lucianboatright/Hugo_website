@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 import image1 from './img/lawn-mower-2430725_1920.jpg'
 import image2 from './img/shalegarden06.jpg'
 import image3 from './img/grass-220465_1280.jpg'
-import image4 from './img/lawn-mower-2430725_1920.jpg'
+import image4 from './img/garden_pond_03.jpg'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   img: {
     // marginTop: '300px',
     position: 'relative',
-    top: '180px',
+    top: '240px',
     paddingTop: '20px',
     paddingBottom: '20px',
     padding: '5px',
@@ -91,6 +91,9 @@ export default function ComplexGrid() {
                 <Typography gutterBottom variant="subtitle1" >
                      <div className={classes.text_title} > Hedge Trimming</div>
                 </Typography>
+                <Typography variant="body2" gutterBottom>
+                    <div className={classes.text_lines}>Soft shapping and maintenance of hedges to keep them healthy from year to year. Trimming to promote growth in order to create partitions or low natural barriers. We can also give hedges a soft shaping or hard edges to smarten them up (no animals yet) </div>
+                </Typography>
                 <Typography gutterBottom variant="subtitle1" >
                      <div className={classes.text_title}> Planting</div>
                 </Typography>
@@ -125,6 +128,8 @@ export default function ComplexGrid() {
                     <img className={classes.img} alt="complex" src={image3} />
         
                     <img className={classes.img} alt="complex" src={image2} />
+
+                    <img className={classes.img} alt="complex" src={image4} />
               </div>
             </ButtonBase>
             {/* <ButtonBase className={classes.image}>

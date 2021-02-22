@@ -7,8 +7,9 @@ import ButtonBase from '@material-ui/core/ButtonBase';
 import {Link} from 'react-router-dom'
 
 import image1 from './img/lawn-mower-2430725_1920.jpg'
-import image2 from './img/shalegarden06.jpg'
+import image2 from './img/garden_patio_02.jpg'
 import image3 from './img/grass-220465_1280.jpg'
+
 import image4 from './img/lawn-mower-2430725_1920.jpg'
 
 const useStyles = makeStyles((theme) => ({
@@ -103,13 +104,13 @@ export default function ComplexGrid() {
                      <div  className={classes.text_title}> Ponds</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                 <div className={classes.text_lines} > Water features can add further interest in the garden and be great for wildlife.</div>
+                 <div className={classes.text_lines} > Water features can add further interest in the garden and will be great for wildlife.</div>
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" >
                     <div className={classes.text_title}>Soft Landscaping</div> 
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                 <div className={classes.text_lines}>Variety of different “soft” practices: turfing, meadow creation, planting of schemes, specimen and hedge. (domestic and commercial)</div>
+                 <div className={classes.text_lines}>Variety of different “soft” practices: turfing, meadow creation, planting of schemes, specimen and hedge. Both domestic and commercial</div>
                 </Typography>
                 {/* <Typography variant="body2" color="textSecondary">
                   <Link className={classes.contact_link} to="/Contact" > <div style={{textDecoration: 'none'}}>Contacts</div></Link>

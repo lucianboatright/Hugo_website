@@ -6,10 +6,10 @@ import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import {Link} from 'react-router-dom'
 
-import image1 from './img/lawn-mower-2430725_1920.jpg'
-import image2 from './img/shalegarden06.jpg'
-import image3 from './img/grass-220465_1280.jpg'
-import image4 from './img/lawn-mower-2430725_1920.jpg'
+import image1 from './img/garden_design_01.jpg'
+import image2 from './img/garden_design_2.jpg'
+import image3 from './img/garden_design_03.jpg'
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   img: {
     // marginTop: '300px',
     position: 'relative',
-    top: '180px',
+    top: '20px',
     paddingTop: '20px',
     paddingBottom: '20px',
     padding: '5px',
@@ -86,8 +86,7 @@ export default function ComplexGrid() {
                      <div className={classes.text_title} > Initial Meeting and Prelim Design</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                 <div className={classes.text_lines} >Involve meeting with the customer to discuss ideas, themes, requirements and budget. This will lead to a preliminary design concept, which will include features, styles & planting.
-planting.</div>
+                 <div className={classes.text_lines} >Involve meeting with the customer to discuss ideas, themes, requirements and budget. This will lead to a preliminary design concept, which will include features, styles & planting.</div>
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" >
                      <div className={classes.text_title} > Design Plans</div>
@@ -114,15 +113,14 @@ planting.</div>
             </Grid>
           </Grid>
           <Grid item>
-            <ButtonBase className={classes.image}>
+            <Typography className={classes.image}>
                 <div className={classes.grid_img}>
                     <img className={classes.img} alt="complex" src={image1} />
         
-                    <img className={classes.img} alt="complex" src={image3} />
-        
                     <img className={classes.img} alt="complex" src={image2} />
               </div>
-            </ButtonBase>
+            </Typography>
+            
             {/* <ButtonBase className={classes.image}>
               <img className={classes.img} alt="complex" src={image1} />
             </ButtonBase> */}
