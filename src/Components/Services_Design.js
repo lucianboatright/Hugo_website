@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   img: {
     // marginTop: '300px',
     position: 'relative',
-    top: '20px',
+    top: '10px',
     paddingTop: '20px',
     paddingBottom: '20px',
     padding: '5px',

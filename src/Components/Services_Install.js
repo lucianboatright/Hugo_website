@@ -6,9 +6,9 @@ import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
 import {Link} from 'react-router-dom'
 
-import image1 from './img/lawn-mower-2430725_1920.jpg'
-import image2 from './img/garden_patio_02.jpg'
-import image3 from './img/grass-220465_1280.jpg'
+import image1 from './img/garden_fencing_02.jpg'
+import image3 from './img/garden_patio_02.jpg'
+import image2 from './img/full_garden_design.jpg'
 
 import image4 from './img/lawn-mower-2430725_1920.jpg'
 
