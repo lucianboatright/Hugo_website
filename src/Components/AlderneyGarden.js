@@ -80,8 +80,6 @@ class AlderneyGarden extends Component {
           As you can see from the images the garden had a lot of untamed growth leading to a lot of lost space. 
           There was a drive to keep and imporve certain parts of the garden like the herb bed and the area at the end of the 
           garden for relaxing and socialising. I also had the oppertunity to install pond to help suport wildlife and a fire pit for evening entertainment.  </div>
-
-
         </div>
         
         

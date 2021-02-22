@@ -76,29 +76,27 @@ export default function ComplexGrid() {
         <Grid  container spacing={2}>
           <Grid item>
           <Grid item>
-              <Typography style={{color:'rgb(199, 68, 24)'}} > <h2>MAINTAIN</h2></Typography>
+              <Typography style={{color:'rgb(199, 68, 24)'}} > <h2>Design</h2></Typography>
             </Grid>
           </Grid>
           <Grid item xs={12} sm container>
             <Grid item xs container direction="column" spacing={1}>
               <Grid item xs >
                 <Typography gutterBottom variant="subtitle1" >
-                     <div className={classes.text_title} > Lawn Mowing & Treatment</div>
+                     <div className={classes.text_title} > Initial Meeting and Prelim Design</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                 <div className={classes.text_lines} >Regular visits during the growing season also seasonal treatments to keep your grass in good condition.</div>
+                 <div className={classes.text_lines} >Involve meeting with the customer to discuss ideas, themes, requirements and budget. This will lead to a preliminary design concept, which will include features, styles & planting.
+planting.</div>
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" >
-                     <div className={classes.text_title} > Hedge Trimming</div>
-                </Typography>
-                <Typography gutterBottom variant="subtitle1" >
-                     <div className={classes.text_title}> Planting</div>
+                     <div className={classes.text_title} > Design Plans</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                    <div className={classes.text_lines}>We are able to source plant required and suggest suitable schemes for your garden.</div>
+                    <div className={classes.text_lines}>Upon confirmation of the design concept and more detailed plan will be created. Including greater details on dimensions, specific materials and features. (This will include construction drawings and planting plans where appropriate)</div>
                 </Typography>
                 <Typography gutterBottom variant="subtitle1" >
-                     <div className={classes.text_title}> Prunning</div>
+                     <div className={classes.text_title}> Design Handover or Instillation</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
                  <div className={classes.text_lines}>Seasonal rose, fruit tree and shrub cutting carried out at the right time, best for the plant.</div>
@@ -107,9 +105,7 @@ export default function ComplexGrid() {
                      <div className={classes.text_title}>General Maintenance</div>
                 </Typography>
                 <Typography variant="body2" gutterBottom>
-                   <div className={classes.text_lines}>We can come for regular scheduled visits during the year or one off. Depending on the time of year the tasks may be pruning, feeding and weeding or top dressing and general tidying.
-                    We would be happy to discuss your specific garden needs individually.
-                    Call or email Hugo to book an appointment .</div> 
+                   <div className={classes.text_lines}>Depending whether the project included installation or just design.</div> 
                 </Typography>
                 {/* <Typography variant="body2" color="textSecondary">
                   <Link className={classes.contact_link} to="/Contact" > Contacts</Link>

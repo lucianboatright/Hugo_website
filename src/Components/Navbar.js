@@ -46,7 +46,7 @@ class Navbar extends Component {
                     </div>
                     
                 </div>
-                <div className={navbar.motto}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
+                <div className={navbar.motto} style={{ textAlign: 'center'}}><h2>DESIGN / INSTALL / MAINTAIN</h2></div>
 
                 <div className={navbar.page_link}>
                     <ul className={navbar.nav}>

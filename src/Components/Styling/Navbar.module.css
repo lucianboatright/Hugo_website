@@ -34,8 +34,8 @@
     left: 0;
     right: 0;
     margin:0;
-    float:none;
-    color: rgb(213,117,86);
+    float: none;
+    color: rgb(199, 68, 24);
 }
 
 
@@ -83,7 +83,7 @@
     width: 30px;
     margin: 5px;
     height: 5px;
-    color: rgb(223, 116, 87);
+    color: rgb(199, 68, 24);
     background: rgb(10, 3, 105);
     cursor: pointer;
     border-radius: 5px;
@@ -122,7 +122,7 @@ ul.nav {
 
 /* test for buttons on nav bar */
 ul.nav li a{
-    color: rgb(223, 116, 87);
+    color: rgb(199, 68, 24);
     background: rgb(243, 248, 233);
     display: block;
     padding: 10px;
@@ -135,7 +135,7 @@ ul.nav li a{
 
 ul.nav li a:hover.nav{
     background: rgb(77, 136, 128);
-    color: rgb(223, 116, 87);
+    color: rgb(199, 68, 24);
     padding-left: 18px;
 }
 

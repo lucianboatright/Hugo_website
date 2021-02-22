@@ -82,11 +82,11 @@ class Pictures extends Component {
                     itemClass="carousel-item-padding-40-px"
                     renderDotsOutside="renderButtonGroupOutside"
                     >
-                    <div ><Link to='/AlderneyGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Alderney Project <br></br> More Information </div></Link></div>
-                    <div ><Link to='/WallGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Garden Instilations <br></br> More Information</div></Link></div>
-                    <div ><Link to='/PaletGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image3} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Herb and Vegtable beds <br></br> More Information</div></Link></div>
-                    <div ><Link to='/ShaleGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Stone gardens <br></br>More Information</div></Link></div>
-                    <div ><Link to='/LawnGarden' style={{textDecoration: 'none', color: 'red'}}><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Mown Lawns and Hedge Trimming <br></br>More Information</div></Link></div>
+                    <div ><Link to='/AlderneyGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Alderney Project <br></br> More Information </div></Link></div>
+                    <div ><Link to='/WallGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Garden Instilations <br></br> More Information</div></Link></div>
+                    <div ><Link to='/PaletGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image3} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Herb and Vegtable beds <br></br> More Information</div></Link></div>
+                    <div ><Link to='/ShaleGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Stone gardens <br></br>More Information</div></Link></div>
+                    <div ><Link to='/LawnGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Mown Lawns and Hedge Trimming <br></br>More Information</div></Link></div>
                 </Carousel>
                 </div>
             </div>

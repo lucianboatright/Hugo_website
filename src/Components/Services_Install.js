@@ -19,6 +19,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     margin: 'auto',
     maxWidth: 1000,
+    background: 'rgb(243, 248, 233)',
   },
   image: {
     width: 128,
@@ -116,7 +117,7 @@ export default function ComplexGrid() {
               </Grid>
             </Grid>
             <Grid item>
-              <Typography variant="subtitle1" style={{color: 'rgb(223, 116, 87)'}} > <h2>INSTALL</h2></Typography>
+              <Typography variant="subtitle1" style={{color: 'rgb(199, 68, 24)'}} > <h2>INSTALL</h2></Typography>
             </Grid>
           </Grid>
         </Grid>
