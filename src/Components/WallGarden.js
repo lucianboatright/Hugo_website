@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from 'react-router-dom';
+import gardenStyle from "./Styling/WallGarden.module.css"
 
 import image1 from './img/vertical-pallet-garden-grey-wall-lawn-creative-diy-succulents-decoration_copy.jpg'
 import image2 from './img/vertical-white-pallet-flower-garden-stone-decorated copy.jpg'
 import image3 from './img/very-happy-with-how-this-pallet-herb-garden-turned-out. copy.jpg'
-import image4 from './img/IMG-20210129-WA0000.jpg'
-import image5 from './img/IMG-20210129-WA0001.jpg'
-import image6 from './img/IMG-20210129-WA0002.jpg'
-import image7 from './img/IMG-20210129-WA0003.jpg'
-
+import image4 from './img/6597098_orig_copy.jpg'
 
 
 
@@ -64,11 +62,16 @@ class WallGarden extends Component {
                 <div><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /></div>
                 <div><img src={image3} alt=""  style={{width:'400px', height:'350px'}} /></div>
                 <div><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image6} alt=""  style={{width:'400px', height:'350px'}} /></div>
-                <div><img src={image7} alt=""  style={{width:'400px', height:'350px'}} /></div>
+
         </Carousel>
+        <div className={gardenStyle.description}>Above you can see a range of garden planters. 
+        We are keen to upcycle so we have used palets to create walled gardens whcih take up much less space and offten covers an ugly spot in the garden, turing it into a beautiful and useful attraction. 
+        We have also done this with fruit and veg baskets, again making great use of someone elses rubbish  </div>
+          <div style={{padding:'20px'}} ><Link to='/Pictures' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><div style={{textAlign: 'center', padding: '10px',borderRadius: '15px', border: 'rgb(28, 70, 54) solid 2px', width: '160px', margin:'auto' }} > Back to Pictures</div></Link></div>
         </div>
+    
+       
+        
         );
     };
 }
