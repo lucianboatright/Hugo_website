@@ -148,12 +148,12 @@ ul.nav li a:hover.nav{
     }
     nav.navbar{
         background: rgb(243, 248, 233);
-        color: rgb(223, 116, 87);
+        color: rgb(199, 68, 24);
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 0px;
-        border-bottom: 1px solid rgb(223, 116, 87)
+        border-bottom: 1px solid rgb(199, 68, 24)
 
     }
 

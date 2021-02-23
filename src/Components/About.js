@@ -18,8 +18,8 @@ class About extends Component {
                     <h1>We are a Bristol based gardening and landscape company,</h1>
                     <h1>Our mission is to create and maintain beautiful and valued gardens</h1>
                     <br></br>
-                    <h2>We cover all of Bristol, Gloucestershire and Somerset and areas surrounding. </h2>
-                    <h3>HB Design is Qualified by the Royal Horticultural Society and a Registered gardener at the Chartered Insititute of Horticilture</h3>
+                    {/* <h2>We cover all of Bristol, Gloucestershire and Somerset and areas surrounding. </h2>
+                    <h3>HB Design is Qualified by the Royal Horticultural Society and a Registered gardener at the Chartered Insititute of Horticilture</h3> */}
                     <br></br>
                 </div>
                 <div className={about.motto}><h1>DESIGN / MAINTAIN / INSTALL</h1></div>
@@ -38,7 +38,7 @@ class About extends Component {
                     {/* <h3>or more regimented gardens with pools, fountains and patios</h3> */}
                     <h3>All our work is realised with the long-term as well as short-term perspective in mind, producing a high quality finish. </h3>
                     <br></br>
-                    <h3>We are fully tooled and have expereince renting and using heavy machinery as well.</h3>
+                    {/* <h3>We are fully tooled and have expereince renting and using heavy machinery as well.</h3> */}
                     <h3>Whether you garden is large or small, formal or informal we are always happy to make it a special and loved space.</h3>
                     <br></br>
                     {/* <h3>Working in scheduled sessions we are able to give seasonal and timely care to the garden and plants, keeping it looking it's best.</h3>

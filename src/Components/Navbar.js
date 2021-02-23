@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import logo from './img/HugoLogo_small.png'
-import emailLogo from './img/Email_logo.png'
-import phoneLogo from './img/Phone_logo.png'
+import emailLogo from './img/Email_logo_copy.png'
+import phoneLogo from './img/Phone_logo_copy.png'
 import navbar from "./Styling/Navbar.module.css"
 
 
