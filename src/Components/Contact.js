@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
 
-import emailLogo from './img/Email_logo.png'
-import phoneLogo from './img/Phone_logo.png'
+import emailLogo from './img/Email_logo_copy.png'
+import phoneLogo from './img/Phone_logo_copy.png'
 import facebook from './img/Facebook.png'
 // import whatsAppLogo from './img/whatsapp.jpg'
 import image1 from './img/daffodil-3349706_1920.jpg'
