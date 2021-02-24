@@ -33,8 +33,8 @@ function App() {
           <Route exact path="/AlderneyGarden" component={AlderneyGarden} />
           {/* <Route exact path="/LawnGarden" component={LawnGarden} /> */}
           <Route exact path="/WallGarden" component={WallGarden} />
-          {/* <Route exact path="/ShaleGarden" component={ShaleGarden} /> */}
-          {/* <Route exact path="/PaletGarden" component={PaletGarden} /> */}
+          <Route exact path="/ShaleGarden" component={ShaleGarden} />
+          <Route exact path="/PaletGarden" component={PaletGarden} />
         </Switch>
       </div>
     </Router>

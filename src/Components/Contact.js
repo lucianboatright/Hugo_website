@@ -5,8 +5,11 @@ import emailLogo from './img/Email_logo.png'
 import phoneLogo from './img/Phone_logo.png'
 import facebook from './img/Facebook.png'
 // import whatsAppLogo from './img/whatsapp.jpg'
+import image1 from './img/daffodil-3349706_1920.jpg'
 
 import './Styling/Contact.css'
+
+
 
 function openTab() {
     window.open('https://www.facebook.com/HBGDNS')
@@ -47,6 +50,9 @@ class Contact extends Component {
                         <div className="facebookcontactbody">
                             <Link onClick={openTab}><img src={facebook} alt="" /><div> HGBDNS - Facebook </div></Link>
                             
+                        </div>
+                        <div> 
+                            <img src={image1} alt="" style={{padding:'20px', height:"300px", width: 'auto'}}/> 
                         </div>
                     </div>
             </div>
