@@ -14,7 +14,7 @@ import AlderneyGarden from './Components/AlderneyGarden'
 import ShaleGarden from './Components/ShaleGarden'
 import WallGarden from './Components/WallGarden'
 import PaletGarden from './Components/PaletGarden'
-import LawnGarden from './Components/LawnGarden'
+// import LawnGarden from './Components/LawnGarden'
 
 
 

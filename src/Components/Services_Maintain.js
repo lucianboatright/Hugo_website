@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import ButtonBase from '@material-ui/core/ButtonBase';
-import {Link} from 'react-router-dom'
+
 
 import image1 from './img/lawn-mower-2430725_1920.jpg'
 import image2 from './img/shalegarden06.jpg'

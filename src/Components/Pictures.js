@@ -7,11 +7,10 @@ import 'react-multi-carousel/lib/styles.css';
 
 import  './Styling/Pictures.module.css'
 
-import { Button, Card, CardBody, CardGroup, Col, Container, Input, InputGroup, InputGroupAddon, InputGroupText, Row, NavLink  } from 'reactstrap';
+
 
 import image1 from './img/IMG-20201214-WA0000(1)_copy.jpg'
 import image2 from './img/vertical-pallet-garden-grey-wall-lawn-creative-diy-succulents-decoration_copy.jpg'
-import image3 from './img/6597098_orig_copy.jpg'
 import image4 from './img/shale01garden.jpg'
 import image5 from './img/roundgarden_1.jpg'
 
@@ -86,7 +85,6 @@ class Pictures extends Component {
                     <div ><Link to='/WallGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Herb and Vegtable Instilations <br></br> Planting Ideas</div></Link></div>
                     <div ><Link to='/PaletGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >General Maininance <br></br> Weekly sessions</div></Link></div>
                     <div ><Link to='/ShaleGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Partial Instilations <br></br>Patios, Hedges and Ponds</div></Link></div>
-                    {/* <div ><Link to='/LawnGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Mown Lawns and Hedge Trimming <br></br>Weekly Maintince</div></Link></div> */}
                 </Carousel>
                 </div>
             </div>

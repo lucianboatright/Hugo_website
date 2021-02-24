@@ -3,12 +3,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import ButtonBase from '@material-ui/core/ButtonBase';
-import {Link} from 'react-router-dom'
+
 
 import image1 from './img/garden_design_01.jpg'
 import image2 from './img/garden_design_2.jpg'
-import image3 from './img/garden_design_03.jpg'
+// import image3 from './img/garden_design_03.jpg'
 
 
 const useStyles = makeStyles((theme) => ({
