@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 import about from './Styling/About.module.css'
 
@@ -12,6 +13,9 @@ class About extends Component {
 
         return(
             <>
+            <Helmet>
+                <title>About</title>
+            </Helmet>
             <div className={about.about_container}>
                 <div className={about.about_body}>
                     <br></br>

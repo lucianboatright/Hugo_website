@@ -19,7 +19,9 @@ import PaletGarden from './Components/PaletGarden'
 
 
 function App() {
+
   return (
+    
     <Router>
       <div className="main">
         <Navbar/>

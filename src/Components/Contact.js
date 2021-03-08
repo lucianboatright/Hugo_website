@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 import emailLogo from './img/Email_logo_copy.png'
 import phoneLogo from './img/Phone_logo_copy.png'
@@ -21,6 +22,9 @@ class Contact extends Component {
 
         return(
             <>
+            <Helmet>
+                <title>Contacts</title>
+            </Helmet>
             <div className="Contact_body_main">
                 <div className="contact_main_text">
                     <br></br>

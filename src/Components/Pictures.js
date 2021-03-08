@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Redirect } from "react-router";
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -56,6 +57,9 @@ class Pictures extends Component {
      render() {
          return (
             <div className="App">
+              <Helmet>
+                <title>Pictures</title>
+              </Helmet>
               <div
                   style={{
                     paddingBottom: '30px',
