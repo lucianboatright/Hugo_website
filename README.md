@@ -1,24 +1,29 @@
 # Project Outline 
 Simple website for Hugo Boatright Gardening and Landscapes.
-The site will have several pages as listed below and contain relevent information or services.
+The porject was to build a simple React web page to both allow clients to contact HGgardens and showcase HBgardening's previous projects and work.
+The tech stack was built on a React (cra) base with several packages to help with different aspects. 
 
-#### About 
-Types of work 
-expereince and certificates
-- Registered RHs qualified gardener
-- Registered Chartered intsittute of Hauticaulture
 
-#### Contact
-We are open to all projects 
-please feel free to contact us vie email or through the message box below 
-- form {email, name, message}
+## Tech-stack 
+The project was build on a Create-react-app base 
+I have included several packages to aid with the managment of images 
+These were brought into the project using components allowing for rapid intergration and testing. 
 
-#### Pictures
-To be added as and when they start comming.
-holdeing page with some pictures of gardens???
+Packages:
+    React-multi-carousel
+    Material-UI - Used to build grids in the Services component. Grid - Paper - Typography - ButtonBase
+    react-router-dom - Used to Link all pages together
+    Helmet - Lable tabs in webpage
 
-#### Home
-Welcome
-Contains pictures
-brief contact info 
-short discription on company
+Styling has been implimented in several fashions to allow for learing and practice of implimentation.
+CSS Styling using:
+    React css Modules - controles the scope of the css file
+    MaterialUI / useStyles - Create const outside component that can be referanced in line as className={classes.part}
+    Inline CSS - used on specific parts to either overide or easy of interpilation. 
+
+## Project goals 
+There were several technologies that both the client and I were interesting in using. 
+    Making active sections - onHover / onClick actions
+    Image carosels - show range of images on carosel
+    Active links - Facebook links, RHS and logo links
+    

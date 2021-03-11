@@ -13,7 +13,7 @@ class Home extends Component {
         return(
             <div className={home}>
                 <Helmet>
-                    <title>H B Gardens</title>
+                    <title>HB Gardens</title>
                 </Helmet>
                 <div className={home.text}>
                     <h1 style={{color: 'rgb(28, 70, 54)'}}>Welcome to HB Gardens and Landscapes</h1>

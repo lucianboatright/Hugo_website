@@ -23,7 +23,7 @@ class Contact extends Component {
         return(
             <>
             <Helmet>
-                <title>Contacts</title>
+                <title>HB Gardens | Contacts</title>
             </Helmet>
             <div className="Contact_body_main">
                 <div className="contact_main_text">

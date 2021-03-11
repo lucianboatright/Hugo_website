@@ -58,7 +58,7 @@ class Pictures extends Component {
          return (
             <div className="App">
               <Helmet>
-                <title>Pictures</title>
+                <title>HB Gardens | Pictures</title>
               </Helmet>
               <div
                   style={{

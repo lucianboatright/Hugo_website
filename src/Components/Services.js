@@ -17,7 +17,7 @@ const Services = () => {
 
    <>
    <Helmet>
-     <title>Services</title>
+     <title>HB Gardens | Services</title>
    </Helmet>
     
     <Design2 />

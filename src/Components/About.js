@@ -14,7 +14,7 @@ class About extends Component {
         return(
             <>
             <Helmet>
-                <title>About</title>
+                <title>HB Gardens | About</title>
             </Helmet>
             <div className={about.about_container}>
                 <div className={about.about_body}>
