@@ -40,7 +40,7 @@ class Contact extends Component {
                             {/* <Link  to="/Contact"><img src={emailLogo} alt="" /><div className="contactNamebody"> Hugo.Boatright@gmail.com</div></Link> */}
                             
                             <Link className={"contactNamebody"} to="/Contact" ><img src={emailLogo} alt=""/></Link>
-                            <div className="contactName">    Hugo.Boatright@gmail.com</div>
+                            <div className="contactName">    info@hbgardens.co.uk</div>
                         </div>
                         <br></br>
                         <div className="phonecontactbody">
