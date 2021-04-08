@@ -26,4 +26,19 @@ There were several technologies that both the client and I were interesting in u
     Making active sections - onHover / onClick actions
     Image carosels - show range of images on carosel
     Active links - Facebook links, RHS and logo links
-    
+
+
+
+### Download a run from local host or head to the online Version.
+
+Live Website - [HBGardens](https://hbgardens.co.uk)
+
+Cloan repo from Git hub https://github.com/lucianboatright/Hugo_website.git
+Open up a terminal, cd into the folder and run npm install or yarn add to download all required packages.
+Run the program by using either npm start or yarn start
+
+The page should open up in a local host 
+if not opena browser and go to http://localhost:3000/
+
+
+
