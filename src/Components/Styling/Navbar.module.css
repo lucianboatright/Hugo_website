@@ -44,7 +44,7 @@
     position: relative;
     /* margin-left: 200px; */
     transition: 1.5s ease;
-    padding-left: 30px;
+    font-weight: bold;
     background: rgb(77, 136, 128);
     cursor: pointer;
     border-radius: 5px;
@@ -73,11 +73,11 @@
 .contactPhone {
     margin-left: 10px;
 }
-/* .phonecontact  img:hover{
+.phonecontact  img:hover{
     width: 20px;
     transition: 1s ease;
-    padding-left: 10px
-} */
+    /* padding-left: 10px */
+}
 /* navbar items  */
 .bar{
     width: 30px;
@@ -106,7 +106,6 @@
 
 
 ul.nav {
-
     background: rgb(243, 248, 233);
     list-style: none;
     height: 0px;
@@ -133,11 +132,6 @@ ul.nav li a{
 
 }
 
-ul.nav li a:hover.nav{
-    background: rgb(77, 136, 128);
-    color: rgb(199, 68, 24);
-    padding-left: 18px;
-}
 
 /* logo box */
 
@@ -169,7 +163,7 @@ ul.nav li a:hover.nav{
         height: auto;
         background: transparent;
         
-        padding-right: 20px;
+        /* padding-right: 20px; */
     }
 
     .showNav{
@@ -179,13 +173,15 @@ ul.nav li a:hover.nav{
     ul.nav li a:hover.nav{
         background: rgb(77, 136, 128);
         color: rgb(223, 116, 87);
+        font-weight: bold;
 
     }
 
     nav.navbar ul.nav a:hover{
         border-radius: 5px;
         background: transparent;
-        padding-left: 40px;
+        /* padding-left: 40px; */
+        font-weight: bold;
         
         background: rgb(77, 136, 128);
         color: rgb(223, 116, 87);

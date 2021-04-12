@@ -17,7 +17,7 @@
 }
 
 .emailcontactbody img {
-    width: 20px;
+    width: 30px;
 }
 .emailcontactbody {
     color: rgb(77, 136, 128);
@@ -29,14 +29,14 @@
     display: inline-block;
     font: 200px;
 }
-.emailcontactbody img:hover{
-    width: 100px;
-    font: 100px;
-}
+/* .emailcontactbody img:hover{
+    width: 75px;
+    font: 75px;
+} */
 
 
 .phonecontactbody img {
-    width: 20px;
+    width: 30px;
 }
 
 .facebookcontactbody img{
