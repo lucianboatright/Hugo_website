@@ -4,6 +4,10 @@ The porject was to build a simple React web page to both allow clients to contac
 The tech stack was built on a React (cra) base with several packages to help with different aspects. 
 
 
+### Screen shots from website.
+Home Page with some active on hover tabs to help indicate to the user. 
+![Homepage](readmeImages/homepage.png)
+
 ## Tech-stack 
 The project was build on a Create-react-app base 
 I have included several packages to aid with the managment of images 
@@ -40,8 +44,4 @@ Run the program by using either npm start or yarn start
 The page should open up in a local host 
 if not opena browser and go to http://localhost:3000/
 
-
-### Screen shots from website.
-Home Page with some active on hover tabs to help indicate to the user. 
-![Homepage](./readmeImages/homepage.png)
 
