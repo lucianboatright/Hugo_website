@@ -41,4 +41,7 @@ The page should open up in a local host
 if not opena browser and go to http://localhost:3000/
 
 
+### Screen shots from website.
+Home Page with some active on hover tabs to help indicate to the user. 
+![Homepage](./readmeImages/homepage.png)
 
