@@ -1,7 +1,7 @@
 # Project Outline 
 Simple website for Hugo Boatright Gardening and Landscapes.
 The project was to build a simple React web page to both allow clients to contact HGgardens and showcase HBgardening's previous projects and work.
-The tech stack was built on a React (cra) base with several packages to help with different actions and animations. I used this project to test several variations on the same package to find the most useful and see the differences on the package offered.
+The tech stack was built on a React (cra) base with several packages to help with different actions and animations. I used this project to test several variations on the same package to find the most useful and see the differences on the package offered. This is a real strength of React and its components allowing me to quickly plug in new components for deployment.
 
 
 
