@@ -21,7 +21,7 @@ import image7 from './img/IMG-20210129-WA0003.jpg'
 
 
 
-class AlderneyGarden extends Component {
+class AlderneyFinish extends Component {
      render() {   
     return (
           <div         
@@ -104,4 +104,4 @@ class AlderneyGarden extends Component {
     };
 }
     
-export default AlderneyGarden;
+export default AlderneyFinish;

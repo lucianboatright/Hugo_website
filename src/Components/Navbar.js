@@ -30,7 +30,7 @@ class Navbar extends Component {
                     </div>
                     <div className={navbar.contactinfo}>
                         <div className={navbar.phonecontact}>
-                            <Link className={navbar.contactLink} to="/Contact" ><img src={emailLogo} alt="" style={{paddingRight:'10px'}} /><div className="contactName">    Hugo.Boatright@gmail.com</div></Link>
+                            <Link className={navbar.contactLink} to="/Contact" ><img src={emailLogo} alt="" style={{paddingRight:'10px'}} /><div className="contactName">    Info@hbgardens.co.uk</div></Link>
                         </div>
                         <div className={navbar.phonecontact}>
                             <Link className={navbar.contactLink} to="/Contact" ><img src={phoneLogo} alt=""style={{paddingRight:'10px'}} /><div className="contactPhone">    07895785400 </div></Link>

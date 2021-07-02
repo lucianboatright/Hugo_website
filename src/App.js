@@ -14,6 +14,7 @@ import AlderneyGarden from './Components/AlderneyGarden'
 import ShaleGarden from './Components/ShaleGarden'
 import WallGarden from './Components/WallGarden'
 import PaletGarden from './Components/PaletGarden'
+import AlderneyFinish from './Components/AlderneyFinish'
 // import LawnGarden from './Components/LawnGarden'
 
 
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/Services" component={Services} />
           <Route exact path="/Pictures" component={Pictures} />
           <Route exact path="/AlderneyGarden" component={AlderneyGarden} />
+          <Route exact path="/AlderneyFinish" component={AlderneyFinish} />
           {/* <Route exact path="/LawnGarden" component={LawnGarden} /> */}
           <Route exact path="/WallGarden" component={WallGarden} />
           <Route exact path="/ShaleGarden" component={ShaleGarden} />

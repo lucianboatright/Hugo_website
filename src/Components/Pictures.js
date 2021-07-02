@@ -11,9 +11,10 @@ import  './Styling/Pictures.module.css'
 
 
 import image1 from './img/IMG-20201214-WA0000(1)_copy.jpg'
-import image2 from './img/vertical-pallet-garden-grey-wall-lawn-creative-diy-succulents-decoration_copy.jpg'
+import image2 from './img/vertical-pallet-garden-grey-wall-lawn-creative-diy-succulents-decorationSQUARE.jpg'
 import image4 from './img/shale01garden.jpg'
 import image5 from './img/roundgarden_1.jpg'
+import image6 from './img/Alderney21square.jpg'
 
 // import "./styles.css";
 
@@ -85,10 +86,11 @@ class Pictures extends Component {
                     itemClass="carousel-item-padding-40-px"
                     renderDotsOutside="renderButtonGroupOutside"
                     >
-                    <div ><Link to='/AlderneyGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Alderney Project <br></br> Complete Re-build </div></Link></div>
+                    <div ><Link to='/AlderneyFinish' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image6} alt="" style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Costal Garden <br></br> Custome Build</div></Link> </div>
                     <div ><Link to='/WallGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Herb and Vegtable Instilations <br></br> Planting Ideas</div></Link></div>
                     <div ><Link to='/PaletGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >General Maininance <br></br> Weekly sessions</div></Link></div>
                     <div ><Link to='/ShaleGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Partial Instilations <br></br>Patios, Hedges and Ponds</div></Link></div>
+                    <div ><Link to='/AlderneyGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image1} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >Alderney Project <br></br> Complete Re-build </div></Link></div>
                 </Carousel>
                 </div>
             </div>

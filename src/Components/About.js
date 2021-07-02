@@ -19,8 +19,8 @@ class About extends Component {
             <div className={about.about_container}>
                 <div className={about.about_body}>
                     <br></br>
-                    <h1>We are a Bristol based gardening and landscape company,</h1>
-                    <h1>Our mission is to create and maintain beautiful and valued gardens</h1>
+                    <h1>We are a Bristol based gardening, landscaping and design company,</h1>
+                    <h1>Managing and carring out care for the garden to help it develop and thrive</h1>
                     <br></br>
                     {/* <h2>We cover all of Bristol, Gloucestershire and Somerset and areas surrounding. </h2>
                     <h3>HB Design is Qualified by the Royal Horticultural Society and a Registered gardener at the Chartered Insititute of Horticilture</h3> */}
@@ -55,7 +55,7 @@ class About extends Component {
                 </div>
                 
                 <div className={about.gardenLogos}>
-                    <div className={about.RHS_box} id="rhs"><h3>Qualified by the Royal Horticultural Society since 2017</h3>
+                    <div className={about.RHS_box} id="rhs"><h3>Qualified by the Royal Horticultural Society since 2016</h3>
                         <div className={about.RHS_logo}>
                             <Link to="https://www.horticulture.org.uk/"><img src={RHSlogo} alt="" /></Link>
                         </div>
