@@ -86,7 +86,7 @@ class Pictures extends Component {
                     itemClass="carousel-item-padding-40-px"
                     renderDotsOutside="renderButtonGroupOutside"
                     >
-                    <div ><Link to='/AlderneyFinish' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image6} alt="" style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Costal Garden <br></br> Custome Build</div></Link> </div>
+                    <div ><Link to='/AlderneyFinish' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image6} alt="" style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Costal Garden <br></br> Custom Build</div></Link> </div>
                     <div ><Link to='/WallGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image2} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Herb and Vegtable Instilations <br></br> Planting Ideas</div></Link></div>
                     <div ><Link to='/PaletGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image5} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} >General Maininance <br></br> Weekly sessions</div></Link></div>
                     <div ><Link to='/ShaleGarden' style={{textDecoration: 'none', color: 'rgb(28, 70, 54)'}}><img src={image4} alt=""  style={{width:'400px', height:'350px'}} /><div style={{padding: "10px"}} > Partial Instilations <br></br>Patios, Hedges and Ponds</div></Link></div>
